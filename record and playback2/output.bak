@@ -1,0 +1,25 @@
+Virtual User Script started at: 1/5/2024 12:17:40 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Crashpad/0.8.0 WinHTTP/10.0.19041.3636 Windows_NT/10.0.19041.3636 (x64)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\record and playback2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_url("petstore.octoperf.com") started  	[MsgId: MMSG-26355]
+Action.c(11): Found resource "https://petstore.octoperf.com/css/jpetstore.css" in HTML "https://petstore.octoperf.com/"  	[MsgId: MMSG-26659]
+Action.c(11): Error -26366: "Text=Welcome to JPetStore 6789" not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(11): web_url("petstore.octoperf.com") highest severity level was "ERROR", 6835 body bytes, 567 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

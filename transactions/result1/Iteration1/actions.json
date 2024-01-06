@@ -1,0 +1,92 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1704197395881
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: crx-telemetry",
+                "infFile": "t2.inf",
+                "time": 1704197396465
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t3.inf",
+                "time": 1704197398023
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Image: sm_fish.gif",
+                "infFile": "t4.inf",
+                "time": 1704197398337
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: json",
+                "infFile": "t5.inf",
+                "time": 1704197398956
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Catalog.action_2",
+                "infFile": "t6.inf",
+                "time": 1704197399244
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t7.inf",
+                "time": 1704197399673
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Link: Proceed to Checkout",
+                "infFile": "t8.inf",
+                "time": 1704197400004
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "enter the store",
+                "rawStartTime": 1704197396512,
+                "rawEndTime": 1704197398035,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04777860641479492
+            },
+            {
+                "transactionName": "select fish",
+                "rawStartTime": 1704197398067,
+                "rawEndTime": 1704197398358,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009731531143188477
+            },
+            {
+                "transactionName": "select FI-SW-01",
+                "rawStartTime": 1704197398982,
+                "rawEndTime": 1704197399245,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009310483932495118
+            },
+            {
+                "transactionName": "add to cart",
+                "rawStartTime": 1704197399276,
+                "rawEndTime": 1704197399682,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010535717010498047
+            },
+            {
+                "transactionName": "proceed to cart",
+                "rawStartTime": 1704197399713,
+                "rawEndTime": 1704197400014,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010076284408569336
+            }
+        ]
+    }
+]

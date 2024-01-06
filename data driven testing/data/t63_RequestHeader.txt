@@ -1,0 +1,8 @@
+GET /api/v4/addons/search/?guid=UFT.Firefox.Agent.2023%40microfocus.com%2Cdefault-theme%40mozilla.org%2Cgoogle%40search.mozilla.org%2Cwikipedia%40search.mozilla.org%2Cbing%40search.mozilla.org%2Cddg%40search.mozilla.org%2Caddons-search-detection%40mozilla.com%2Cfirefox-compact-light%40mozilla.org%2Cfirefox-compact-dark%40mozilla.org%2Cfirefox-alpenglow%40mozilla.org&lang=en-US HTTP/1.1
+Host: services.addons.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+

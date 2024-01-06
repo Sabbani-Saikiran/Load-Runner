@@ -1,0 +1,18 @@
+DELETE /order/api/v1/carts/655606527 HTTP/1.1
+Host: advantageonlineshopping.com
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+Accept: application/json, text/plain, */*
+sec-ch-ua-mobile: ?0
+Authorization: Basic ZGVtb3VzZXIyOkRlbW91c2VyMTIz
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Origin: https://advantageonlineshopping.com
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://advantageonlineshopping.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=5EF35513A820E98C1DA43E83324A1C44; _ga=GA1.2.56093117.1704386070; _gid=GA1.2.1368696169.1704386070; _gat=1
+

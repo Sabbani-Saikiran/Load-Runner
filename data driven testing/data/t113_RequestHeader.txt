@@ -1,0 +1,22 @@
+POST /reserve.php HTTP/1.1
+Host: blazedemo.com
+Connection: keep-alive
+Content-Length: 29
+Cache-Control: max-age=0
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: https://blazedemo.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: https://blazedemo.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: prodperfect_session={%22session_uuid%22:%2282c0bf27-cfe6-462d-82d0-90883bee8f1d%22}; keen={%22uuid%22:%22292b207a-6fdb-492a-b5c9-c2168ffdba70%22%2C%22initialReferrer%22:null}
+

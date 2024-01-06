@@ -1,0 +1,11 @@
+[t42]
+FileName1=t42.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/d7e627e8-1d1d-40a0-8aeb-d43fd88f450b
+Total=1
+RequestHeaderFile=t42_RequestHeader.txt
+RequestBodyFile=t42_RequestBody.txt
+ResponseHeaderFile=t42_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_42.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

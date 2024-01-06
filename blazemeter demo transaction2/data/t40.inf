@@ -1,0 +1,11 @@
+[t40]
+FileName1=t40.json
+URL1=https://blazemeter.datapipe.prodperfect.com/v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/pageviews?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9
+Total=1
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=t40_RequestBody.txt
+ResponseHeaderFile=t40_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_40.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

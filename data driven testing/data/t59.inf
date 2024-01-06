@@ -1,0 +1,17 @@
+[t59]
+FileName1=t59.html
+URL1=http://ocsp.r2m03.amazontrust.com/
+Total=4
+RequestHeaderFile=t59_RequestHeader.txt
+RequestBodyFile=t59_RequestBody.txt
+ResponseHeaderFile=t59_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_59.xml
+FileName2=t59_aus.content-signature.mozilla.org-2024-02-08-20-06-05.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/aus.content-signature.mozilla.org-2024-02-08-20-06-05.chain
+FileName3=t59_keen-tracking.min.html
+URL3=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js
+FileName4=t59_onecrl.content-signature.mozilla.org-2024-02-08-20-06-02.html
+URL4=https://content-signature-2.cdn.mozilla.net/chains/onecrl.content-signature.mozilla.org-2024-02-08-20-06-02.chain
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+HTTP/2.0 500
+Status: 500
+server: nginx/1.18.0 (Ubuntu)
+date: Fri, 05 Jan 2024 03:37:17 GMT
+content-type: application/json
+vary: accept-encoding
+content-encoding: gzip
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\record and playback
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\record and playback\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\record and playback\\combined_record and playback.c
+c:\users\sai\onedrive\documents\vugen\scripts\record and playback\\pre_cci.c

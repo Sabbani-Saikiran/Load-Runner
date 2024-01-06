@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t2.inf",
+                "time": 1704264689755
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Form: reserve.php",
+                "infFile": "t3.inf",
+                "time": 1704264699347
+            }
+        ],
+        "transactions": []
+    }
+]

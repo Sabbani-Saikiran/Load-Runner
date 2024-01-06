@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\blazemeter transactions
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\blazemeter transactions\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\blazemeter transactions\\combined_blazemeter transactions.c
+c:\users\sai\onedrive\documents\vugen\scripts\blazemeter transactions\\pre_cci.c

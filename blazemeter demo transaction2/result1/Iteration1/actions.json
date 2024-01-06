@@ -1,0 +1,75 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t3.inf",
+                "time": 1704275296283
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: json",
+                "infFile": "t10.inf",
+                "time": 1704275302305
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: reserve.php",
+                "infFile": "t11.inf",
+                "time": 1704275302943
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: purchase.php",
+                "infFile": "t14.inf",
+                "time": 1704275305234
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "source transaction",
+                "rawStartTime": 1704275296311,
+                "rawEndTime": 1704275299332,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03490447998046875
+            },
+            {
+                "transactionName": "destination transaction",
+                "rawStartTime": 1704275299364,
+                "rawEndTime": 1704275301815,
+                "thinkTime": 0.0,
+                "wastedTime": 0.037418365478515628
+            },
+            {
+                "transactionName": "find flights transaction",
+                "rawStartTime": 1704275302331,
+                "rawEndTime": 1704275304593,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03792381286621094
+            },
+            {
+                "transactionName": "choose this flight transaction",
+                "rawStartTime": 1704275304611,
+                "rawEndTime": 1704275307645,
+                "thinkTime": 0.0,
+                "wastedTime": 0.05224871635437012
+            },
+            {
+                "transactionName": "details filling transaction",
+                "rawStartTime": 1704275307676,
+                "rawEndTime": 1704275311006,
+                "thinkTime": 0.0,
+                "wastedTime": 0.04726099967956543
+            },
+            {
+                "transactionName": "purchase flight transaction",
+                "rawStartTime": 1704275311024,
+                "rawEndTime": 1704275311038,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

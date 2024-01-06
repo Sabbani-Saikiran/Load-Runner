@@ -1,0 +1,11 @@
+[t38]
+FileName1=t38_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/blocklists/collections/addons-bloomfilters/changeset?_expected=1703766957812&_since=%221703270156552%22
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_38.xml
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

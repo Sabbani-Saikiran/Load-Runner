@@ -1,0 +1,15 @@
+[t43]
+FileName1=t43.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/43430f8b-ab33-4fff-af00-c36514ca630c
+Total=3
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=t43_RequestBody.txt
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-08-20-06-04.chain
+FileName3=t43_bootstrap.min.html
+URL3=https://blazedemo.com/assets/bootstrap.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

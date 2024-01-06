@@ -1,0 +1,13 @@
+[t75]
+FileName1=t75.json
+URL1=https://classify-client.services.mozilla.com/api/v1/classify_client/
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_75.xml
+RequestHeaderFile=t75_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t75_ResponseHeader.txt
+FileName2=t75_normandy.content-signature.mozilla.org-2024-02-08-20-06-03.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/normandy.content-signature.mozilla.org-2024-02-08-20-06-03.chain?cachebust=2017-06-13-21-06
+[ProtocolInfo]
+ProtocolId=QTWeb

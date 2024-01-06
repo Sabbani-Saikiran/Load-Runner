@@ -1,0 +1,13 @@
+[t49]
+FileName1=t49.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/42ade1de-3b51-4baf-8103-89c991b75261
+Total=2
+RequestHeaderFile=t49_RequestHeader.txt
+RequestBodyFile=t49_RequestBody.txt
+ResponseHeaderFile=t49_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_49.xml
+FileName2=t49_bootstrap.min.css
+URL2=https://blazedemo.com/assets/bootstrap.min.css
+[ProtocolInfo]
+ProtocolId=QTWeb

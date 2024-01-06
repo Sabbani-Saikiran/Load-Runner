@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.htm
+URL1=https://petstore.octoperf.com/actions/Catalog.action;jsessionid=249FF4EE7D779C692FB78BAAB01B93D2?viewCategory=&categoryId=BIRDS
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

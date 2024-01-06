@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "close",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: Order.action",
+                "infFile": "t1.inf",
+                "time": 1704180420905
+            }
+        ],
+        "transactions": []
+    }
+]

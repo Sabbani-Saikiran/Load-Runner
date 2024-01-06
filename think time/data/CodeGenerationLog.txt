@@ -1,0 +1,344 @@
+****** Start Log Message ******
+Web Recorder version : 2023.0.0.506 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2023.0.0.506
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 67 ******
+GET /generate_204 HTTP/1.1
+Host: www.gstatic.com
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 67 Ended $$$$$$
+
+****** Response Header For Transaction With Id 67 ******
+HTTP/1.1 204 No Content
+Content-Length: 0
+Cross-Origin-Resource-Policy: cross-origin
+Date: Tue, 02 Jan 2024 12:14:05 GMT
+
+
+$$$$$$ Response Header For Transaction With Id 67 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 67 ****** (Location Flag : tFlagInsertEnd, Location ID : 67)
+	web_url("generate_204",
+		"URL=http://www.gstatic.com/generate_204",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 67 Ended $$$$$$
+
+****** Request Header For Transaction With Id 71 ******
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: LSOLH=|_SVI_EID4iZzB6oADGBAiP01BRURIZl9xM1oyZlgwNE5WWGtvMHFDNFdZVHlfaVlaYV9NaTdnbzF1OTMyMkxzcUJNUXlLSE1sRWcxLWF1VQ_:|28208506:5bf5; HSID=ALTw2jUU0p7RxMpAY; SSID=Amd3IZ_whQRZ591Np; APISID=isfs_gETe-CDcANv/ACrycZxtiYDJxBSeC; SAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; __Secure-1PAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; __Secure-3PAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; ACCOUNT_CHOOSER=AFx_qI7OOUKfwjrV4f99SPZh5VFhASJiKnRdpGuaJITIs0FF9Os4ac6HT3pARkRrRUnh9IhaCT_JykGW6oQ8dnWVqc8iix345pb8Q1Zj7G6QOi2jrbgM-QjCePujU1DafodewOJtQkFTdJRR3Z-hm3YgUXMirjFUKw; SEARCH_SAMESITE=CgQI-JkB; SID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkFmtAmVKL_KdknRxso1_3qw.; __Secure-1PSID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkx57bI3iM_4KgM6t8AYTeYA.; __Secure-3PSID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkqo6aDVsoEsKoNw0ZbvAn1A.; __Host-GAPS=1:0x9QJlq4iboFhqUe_6kAgVOec7YtLgLzZFyXeVJTozaHvJqHyfUvW94a4AKbWUFT6fU4sf4Sr41uNBl-FBAZeIjY_nPQjg:DN-booXS7iPyGcEm; OGP=-19022552:; LSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm_CoMkUoYHAoWZrjTiTge9-w.; __Host-1PLSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm__BLClZYLJnQVhKBPp8n9NA.; __Host-3PLSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm_mEivzWIciHPxjwdVD0wGXQ.; __Secure-1PSIDTS=sidts-CjIBPVxjSqUmxqWkMBkjcuRw2BULlMiH3VGmgGYMffqXbSigDZCODzWVAE2aMccW2EdzCRAA; __Secure-3PSIDTS=sidts-CjIBPVxjSqUmxqWkMBkjcuRw2BULlMiH3VGmgGYMffqXbSigDZCODzWVAE2aMccW2EdzCRAA; OGPC=19022552-1:19036484-1:19022622-1:; 1P_JAR=2024-01-02-04; AEC=Ackid1RVL3uCyRZitf9lMWfmUcFS4abpPpIAvf8VtIRVEfFvF4mtfE5KBw; NID=511=d5CQBjW68sVacf0OXeqtDp8LdaBtBNjKXiwo0NKgSC_8d0pCjKNeVqurCqcwsZwG8PDqvZ1uof3UveJvAMi9BsNRuAG7MX6XGhyqRQ1IeRmbyOOtFm-kFhBHq4t_2z_15lnknp-1GFt0ayZ0XoubEMvqM1RhbWeL42Fo61FjWL6Q3f4CNnCifiB2Lzp1lDapBRWrZFK-0mdGUb6qtwyXELU48oq4hrMuYnLWmmDqVqJacKzPl_35dPDcT6SzhNX9o4QdbfDnoK3nFL08e8zNpB2-WPC_0SE6xkYe0LC5oKuVMfJRfJC3Fj5e4RCi_9k-eiLB2tZwGmwoqaKvem9KcIBfBhZQzHcKCcnLVpc6dsMPANU29A484q0wNDROFaktWs-GCkT7_JdBICNoyRNhCrjTL5Xab3dmT8lYQIOayO9zKfkxjhg6h_WhTU8aKT7NER-olyTMmmFUnw; SIDCC=ABTWhQFpi6HaS_MV3Aa3xfSJTYMz5z8id0Vs0UTPE_kWic7f55-3sztOxQYt_YnSmBukaJMM158; __Secure-1PSIDCC=ABTWhQFuY0t42eFrMmElUHOEl6dSNvluKeNHxQ8KFCKzjaQSlp5pkpePmDtbw84CYffaYcXMuQ; __Secure-3PSIDCC=ABTWhQGNQJYdjC0vyUUrlGaX5P0x2YDXzxaRSGMkylIDLCvFgl5muUv-fsXpDunOtC3zjNhC21g
+
+
+$$$$$$ Request Header For Transaction With Id 71 Ended $$$$$$
+
+****** Request Body For Transaction With Id 71 ******
+ 
+$$$$$$ Request Body For Transaction With Id 71 Ended $$$$$$
+
+****** Response Header For Transaction With Id 71 ******
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 02 Jan 2024 12:14:05 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: script-src 'report-sample' 'nonce-LZmhMd5O7Y_RTBEixX9Ahg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Cross-Origin-Opener-Policy: same-origin
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=ABTWhQH5aCOWRE4NLI_z_HAYqYJgDSF1-tXLuTDloN65iWmMVMhI3p_w2J8IG_p3dqpJSmYLxAw; expires=Wed, 01-Jan-2025 12:14:05 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=ABTWhQHaQxrcd04Q-d-0TNl7QRFGKISj1lwhDcfDUG5zdrKeWwnoSLP3BtJFlayxmgdIVOjGlA; expires=Wed, 01-Jan-2025 12:14:05 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=ABTWhQHRpj1YWQ1BKAX15cJxB227iGnk3JRDAc5ccr2FFO7MAz8hLZiRHz_jfcoXL8bCCCZkCFM; expires=Wed, 01-Jan-2025 12:14:05 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+
+$$$$$$ Response Header For Transaction With Id 71 Ended $$$$$$
+
+****** Response Body For Transaction With Id 71 ******
+["gaia.l.a.r",[["gaia.l.a",1,"saikiran sabbani","saikiransabbani7@gmail.com","https://lh3.googleusercontent.com/-zbrNXZef5_U/AAAAAAAAAAI/AAAAAAAAAAA/ENIUowf3AAQ/s48-c/photo.jpg",1,1,0,null,1,"115223948268610106438",null,null,null,null,1]]]
+$$$$$$ Response Body For Transaction With Id 71 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/generate_204
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 71 ****** (Location Flag : tFlagInsertEnd, Location ID : 71)
+	web_custom_request("ListAccounts",
+		"URL=https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard",
+		"Method=POST",
+		"Resource=0",
+		"RecContentType=application/json",
+		"Referer=",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		"Body= ",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 71 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("LSOLH=|_SVI_EID4iZzB6oADGBAiP01BRURIZl9xM1oyZlgwNE5WWGtvMHFDNFdZVHlfaVlaYV9NaTdnbzF1OTMyMkxzcUJNUXlLSE1sRWcxLWF1VQ_:|28208506:5bf5; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("HSID=ALTw2jUU0p7RxMpAY; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("SSID=Amd3IZ_whQRZ591Np; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("APISID=isfs_gETe-CDcANv/ACrycZxtiYDJxBSeC; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("SAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-1PAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-3PAPISID=0MTJ26Wov7phAkSJ/Af7BoZYvd9Wsui5Dq; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("ACCOUNT_CHOOSER=AFx_qI7OOUKfwjrV4f99SPZh5VFhASJiKnRdpGuaJITIs0FF9Os4ac6HT3pARkRrRUnh9IhaCT_JykGW6oQ8dnWVqc8iix345pb8Q1Zj7G6QOi2jrbgM-QjCePujU1DafodewOJtQkFTdJRR3Z-hm3YgUXMirjFUKw; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("SEARCH_SAMESITE=CgQI-JkB; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("SID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkFmtAmVKL_KdknRxso1_3qw.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-1PSID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkx57bI3iM_4KgM6t8AYTeYA.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-3PSID=eAgjyz8X8YDxHUxxYIi6AN91vUtEkpaTZVNyC-4iUgksbMQkqo6aDVsoEsKoNw0ZbvAn1A.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Host-GAPS=1:0x9QJlq4iboFhqUe_6kAgVOec7YtLgLzZFyXeVJTozaHvJqHyfUvW94a4AKbWUFT6fU4sf4Sr41uNBl-FBAZeIjY_nPQjg:DN-booXS7iPyGcEm; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("OGP=-19022552:; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("LSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm_CoMkUoYHAoWZrjTiTge9-w.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Host-1PLSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm__BLClZYLJnQVhKBPp8n9NA.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Host-3PLSID=o.chromewebstore.google.com|o.gds.google.com|o.lens.google.com|o.mail.google.com|s.IN|s.youtube:ewgjy-iRcitfmnccN26Nu5oGWeigQtbOw0_KkXx39ZY9mUm_mEivzWIciHPxjwdVD0wGXQ.; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-1PSIDTS=sidts-CjIBPVxjSqUmxqWkMBkjcuRw2BULlMiH3VGmgGYMffqXbSigDZCODzWVAE2aMccW2EdzCRAA; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-3PSIDTS=sidts-CjIBPVxjSqUmxqWkMBkjcuRw2BULlMiH3VGmgGYMffqXbSigDZCODzWVAE2aMccW2EdzCRAA; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("OGPC=19022552-1:19036484-1:19022622-1:; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("1P_JAR=2024-01-02-04; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("AEC=Ackid1RVL3uCyRZitf9lMWfmUcFS4abpPpIAvf8VtIRVEfFvF4mtfE5KBw; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("NID=511=d5CQBjW68sVacf0OXeqtDp8LdaBtBNjKXiwo0NKgSC_8d0pCjKNeVqurCqcwsZwG8PDqvZ1uof3UveJvAMi9BsNRuAG7MX6XGhyqRQ1IeRmbyOOtFm-kFhBHq4t_2z_15lnknp-1GFt0ayZ0XoubEMvqM1RhbWeL42Fo61FjWL6Q3f4CNnCifiB2Lzp1lDapBRWrZFK-0mdGUb6qtwyXELU48oq4hrMuYnLWmmDqVqJacKzPl_35dPDcT6SzhNX9o4QdbfDnoK3nFL08e8zNpB2-WPC_0SE6xkYe0LC5oKuVMfJRfJC3Fj5e4RCi_9k-eiLB2tZwGmwoqaKvem9KcIBfBhZQzHcKCcnLVpc6dsMPANU29A484q0wNDROFaktWs-GCkT7_JdBICNoyRNhCrjTL5Xab3dmT8lYQIOayO9zKfkxjhg6h_WhTU8aKT7NER-olyTMmmFUnw; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("SIDCC=ABTWhQFpi6HaS_MV3Aa3xfSJTYMz5z8id0Vs0UTPE_kWic7f55-3sztOxQYt_YnSmBukaJMM158; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-1PSIDCC=ABTWhQFuY0t42eFrMmElUHOEl6dSNvluKeNHxQ8KFCKzjaQSlp5pkpePmDtbw84CYffaYcXMuQ; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 71)
+	web_add_cookie("__Secure-3PSIDCC=ABTWhQGNQJYdjC0vyUUrlGaX5P0x2YDXzxaRSGMkylIDLCvFgl5muUv-fsXpDunOtC3zjNhC21g; DOMAIN=accounts.google.com");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 81 ******
+GET /chrome-variations/seed?osname=win&channel=stable&milestone=120 HTTP/1.1
+Host: clientservices.googleapis.com
+Connection: keep-alive
+If-None-Match: SMChYyMDIzMTIxOC0wODAxMTMuNDExMDAwEggIABADGHggAA==#zyF+QxNf0Xw=
+A-IM: x-bm,gzip
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+
+
+$$$$$$ Request Header For Transaction With Id 81 Ended $$$$$$
+
+****** Response Header For Transaction With Id 81 ******
+HTTP/1.1 304 Not Modified
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+Date: Tue, 02 Jan 2024 12:14:06 GMT
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+$$$$$$ Response Header For Transaction With Id 81 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 81 ****** (Location Flag : tFlagInsertEnd, Location ID : 81)
+	web_url("seed",
+		"URL=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120",
+		"Resource=0",
+		"Referer=",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 81 Ended $$$$$$
+

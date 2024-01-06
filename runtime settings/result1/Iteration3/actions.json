@@ -1,0 +1,44 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t2.inf",
+                "time": 1704195878956
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Link: Enter the Store",
+                "infFile": "t3.inf",
+                "time": 1704195879978
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Image: sm_fish.gif",
+                "infFile": "t4.inf",
+                "time": 1704195880429
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Link: FI-SW-01",
+                "infFile": "t5.inf",
+                "time": 1704195880886
+            },
+            {
+                "stepId": "STEP17",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t6.inf",
+                "time": 1704195881335
+            },
+            {
+                "stepId": "STEP18",
+                "stepName": "Link: Proceed to Checkout",
+                "infFile": "t7.inf",
+                "time": 1704195881642
+            }
+        ],
+        "transactions": []
+    }
+]

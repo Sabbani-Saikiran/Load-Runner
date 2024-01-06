@@ -1,0 +1,14 @@
+[t41]
+FileName1=t41_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120
+Total=5
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_41.xml
+FileName2=t41_bootstrap.min.html
+URL2=https://blazedemo.com/assets/bootstrap.min.js
+FileName3=t41_bootstrap.min.css
+URL3=https://blazedemo.com/assets/bootstrap.min.css
+FileName4=t41_bootstrap-table.css
+URL4=https://blazedemo.com/assets/bootstrap-table.css
+FileName5=t41_keen-tracking.min.html
+URL5=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js

@@ -1,0 +1,11 @@
+[t55]
+FileName1=t55.json
+URL1=https://advantageonlineshopping.com/order/api/v1/carts/655606527/product/29/color/414141?quantity=2
+Total=1
+RequestHeaderFile=t55_RequestHeader.txt
+RequestBodyFile=t55_RequestBody.txt
+ResponseHeaderFile=t55_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_55.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

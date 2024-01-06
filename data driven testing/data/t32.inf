@@ -1,0 +1,11 @@
+[t32]
+FileName1=t32.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/c944bc67-a56b-4516-956f-99da4b5840f4
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=t32_RequestBody.txt
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_32.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

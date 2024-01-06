@@ -1,0 +1,178 @@
+[API Trapper      (1df4:2530)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (5540:43d4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (4c78:1fec)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (4c78:2820)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4c78:2820)] Load Network Traffic Analyzers:
+[Network Analyzer (4c78:2820)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (4c78:2820)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (4c78:2820)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (4c78:2820)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (4c78:2820)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (4c78:2820)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (4c78:2820)]     Analyzer Module: local_server (value=)
+[Network Analyzer (4c78:2820)] ------------------------------------------------------------------------------------------
+[Network Analyzer (4c78:5ad0)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:82B:0:0:0:2003: - 443  (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4003:C06:0:0:0:54: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (4c78: 8a8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4c78: 8a8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4c78:44bc)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=120"   
+[Network Analyzer (4c78:44bc)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:81E:0:0:0:2003: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (4c78:64b0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4c78:64b0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (200c:11e8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (4c78:44bc)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:56c4)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4c78:44bc)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (4c78:44bc)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Net An. Error    (4c78:56c4)] SSLAccept(ssl_id = 2813526966096 = 0000028F13467F50) Failed, ctx = 0000028F134743E0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (4c78:56c4)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:42ec)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Error    (4c78:42ec)] SSLAccept(ssl_id = 2813527364640 = 0000028F134C9420) Failed, ctx = 0000028F134F97C0, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (4c78:42ec)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:5ad0)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (4c78:44bc)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (4c78:12e4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:12e4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4c78:5ad0)] "GET /"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Client -> Server @ : 662 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 891 bytes (SSL) (Service=HTTP)
+[Web Request      (4c78:5ad0)] "GET /swagger-ui.css"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 566 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 7205 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (4c78:6218)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:804:0:0:0:200A: - 443  (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (4c78:6218)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4c78:5ad0)] "GET /swagger-ui-bundle.js"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Client -> Server @ : 543 bytes (SSL)(Service=HTTP)
+[Web Request      (4c78:5ad0)] "GET /index.css"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Client -> Server @ : 546 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 713 bytes (SSL) (Service=HTTP)
+[Web Request      (4c78:5ad0)] "GET /swagger-ui-standalone-preset.js"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Client -> Server @ : 554 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 582 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:69a0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 15005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 581 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 1379 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 1514 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 15005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:2648)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Server -> Client : 3289 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:69a0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (4c78:5ad0)] "GET /swagger-initializer.js"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Client -> Server @ : 545 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:2648)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 14708 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Server -> Client : 1110 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:16c8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:16c8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (4c78:5ad0)] "GET /v2/swagger.json"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Web Request      (4c78:5ad0)] "GET /favicon-32x32.png"   
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Client -> Server @ : 600 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:2820)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (4c78:1a14)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 14177 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Server -> Client : 517 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Server -> Client : 628 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 3.229.84.198:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (4c78:1a14)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (4c78:2628)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:2628)] SSLAccept(ssl_id = 2813539087152 = 0000028F13FF7330) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:2628)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (4c78:5bec)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (4c78:5bec)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (4c78:5050)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:5050)] SSLAccept(ssl_id = 2813539287568 = 0000028F14028210) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:5050)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (4c78:5ad0)] "GET /validator?url=https%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json"   
+[Network Analyzer (4c78:5ad0)]   (Sid: 11) Client -> Server @ : 649 bytes (SSL)(Service=HTTP)
+[Network Analyzer (4c78:5ad0)]   (Sid: 11) Server -> Client : 1965 bytes (SSL) (Service=HTTP)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (4c78:6aa0)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:6aa0)] SSLAccept(ssl_id = 2813539295008 = 0000028F14029F20) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:6aa0)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:44bc)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (4c78:44bc)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (4c78:5328)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:5328)] SSLAccept(ssl_id = 2813539257808 = 0000028F14020DD0) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:5328)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:44bc)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (4c78:44bc)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (4c78:2dd8)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:2dd8)] SSLAccept(ssl_id = 2813539287568 = 0000028F14028210) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:2dd8)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:2820)] Request Connection: Remote Server @ 2404:6800:4007:823:0:0:0:200A: - 443  (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (4c78:4604)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (4c78:4604)] SSLAccept(ssl_id = 2813539272688 = 0000028F140247F0) Failed, ctx = 0000028F134743E0, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (4c78:4604)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (4c78:44bc)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (4c78:44bc)]   (Sid: 17) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (1df4:2624)] Insert Text Check: "Swagger Petstore"
+[Network Analyzer (4c78:5ad0)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (4c78:5ad0)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (4c78:5ad0)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (4c78:5ad0)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (4c78:5ad0)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (4c78:5ad0)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (4c78:44bc)]   (Sid: 10) Connection Terminated (by Client)

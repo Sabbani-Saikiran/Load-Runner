@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 42
+Rule-ID: unknown
+Rule-Data-Version: unknown
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'
+X-Proxy-Cache-Status: EXPIRED
+Via: 1.1 google
+Date: Wed, 03 Jan 2024 04:59:17 GMT
+Age: 97
+Content-Type: text/xml; charset=utf-8
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+

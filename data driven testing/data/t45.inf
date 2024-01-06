@@ -1,0 +1,13 @@
+[t45]
+FileName1=t45_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/nimbus-desktop-experiments/changeset?_expected=1704235466694&_since=%221703353007034%22
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_45.xml
+RequestHeaderFile=t45_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t45_ResponseHeader.txt
+FileName2=t45_bootstrap-table.html
+URL2=https://blazedemo.com/assets/bootstrap-table.js
+[ProtocolInfo]
+ProtocolId=QTWeb

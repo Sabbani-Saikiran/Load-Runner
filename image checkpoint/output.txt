@@ -1,0 +1,62 @@
+Virtual User Script started at: 1/2/2024 5:04:41 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\image checkpoint\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(8): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120"  	[MsgId: MMSG-26547]
+Action.c(8): web_url("seed") was successful, 340536 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(16): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(16): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(18): web_url("demowebshop.tricentis.com") started  	[MsgId: MMSG-26355]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/responsive.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/jquery-ui-1.10.3.custom.min.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/nivo-slider.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/default.css" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-1.10.2.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/jquery.validate.unobtrusive.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-ui-1.10.3.custom.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/jquery-migrate-1.2.1.min.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/public.common.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Scripts/public.ajaxcart.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Scripts/jquery.nivo.slider.js" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/logo.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-divider.png" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/bullet-right.gif" (specified by argument number 12)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-active.png" (specified by argument number 15)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/star-x-inactive.png" (specified by argument number 18)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/loading.gif" (specified by argument number 21)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Content/jquery-ui-themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" (specified by argument number 24)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Themes/DefaultClean/Content/images/top-menu-triangle.png" (specified by argument number 27)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/bullets.png" (specified by argument number 30)  	[MsgId: MMSG-26576]
+Action.c(18): Downloading resource "https://demowebshop.tricentis.com/Plugins/Widgets.NivoSlider/Content/nivoslider/themes/default/arrows.png" (specified by argument number 33)  	[MsgId: MMSG-26576]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000215.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000240.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000015_25-virtual-gift-card_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000224_141-inch-laptop_125.png" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000031_build-your-own-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): Found resource "https://demowebshop.tricentis.com/content/images/thumbs/0000204_simple-computer_125.jpeg" in HTML "https://demowebshop.tricentis.com/"  	[MsgId: MMSG-26659]
+Action.c(18): web_url("demowebshop.tricentis.com") was successful, 682244 body bytes, 10123 header bytes  	[MsgId: MMSG-26386]
+Action.c(36): web_image_check started  	[MsgId: MMSG-26355]
+Action.c(36): Error -27191: "web_image_check" failed (0 occurrence(s) found. Alt="", Src="/Themes/DefaultClean/Content/images/logo123.png")  	[MsgId: MERR-27191]
+Action.c(36): web_image_check highest severity level was "ERROR"  	[MsgId: MMSG-26391]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

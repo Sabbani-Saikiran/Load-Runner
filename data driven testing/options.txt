@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\data driven testing
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\data driven testing\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\data driven testing\\combined_data driven testing.c
+c:\users\sai\onedrive\documents\vugen\scripts\data driven testing\\pre_cci.c

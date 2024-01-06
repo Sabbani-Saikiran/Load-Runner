@@ -1,0 +1,16 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=application/octet-stream
+StepName=Url: seed
+Total=2
+FileName1=t2.csar
+FileName2=t1_1_jpetstore.css
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1704437295993
+RawStepName=seed
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1704437294420
+URL1=file:
+URL2=https://petstore.octoperf.com/css/jpetstore.css

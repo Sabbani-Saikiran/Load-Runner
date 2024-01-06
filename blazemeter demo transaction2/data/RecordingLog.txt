@@ -1,0 +1,272 @@
+[API Trapper      (51a0:5790)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (5a64:2980)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (5044:24c8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5044: 27c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5044: 27c)] Load Network Traffic Analyzers:
+[Network Analyzer (5044: 27c)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (5044: 27c)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (5044: 27c)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (5044: 27c)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (5044: 27c)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (5044: 27c)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (5044: 27c)]     Analyzer Module: local_server (value=)
+[Network Analyzer (5044: 27c)] ------------------------------------------------------------------------------------------
+[Network Analyzer (5044:4a28)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4007:81B:0:0:0:2003: - 443  (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2001:4860:4802:36:0:0:0:15: - 443  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (5044:6724)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4003:C02:0:0:0:54: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (5044:6724)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:5360)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:5360)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (3084:5bd8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Web Request      (5044:323c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=120"   
+[Network Analyzer (5044:323c)]   (Sid:  1) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:323c)] "GET /"   
+[Network Analyzer (5044:323c)]   (Sid:  2) Client -> Server @ : 656 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:6bc0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:6bc0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:323c)]   (Sid:  1) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (5044:323c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (5044:323c)]   (Sid:  2) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  2) Server -> Client : 842 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  2) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2001:4860:4802:36:0:0:0:15: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2001:4860:4802:36:0:0:0:15: - 443  (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2001:4860:4802:36:0:0:0:15: - 443  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2001:4860:4802:36:0:0:0:15: - 443  (Service=)  (Sid=  7)  PROXIED!
+[Net An. Error    (5044:4fdc)] SSL_connect(ssl_id = 3194729393904 = 000002E7D4B5EEF0) Failed, ctx = 000002E7D4B47010, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:4fdc)]   (Sid:  4) SSL handshake with remote server Failed!
+[Net An. Error    (5044:5f40)] SSL_connect(ssl_id = 3194729385520 = 000002E7D4B5CE30) Failed, ctx = 000002E7D4B47010, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:5f40)]   (Sid:  5) SSL handshake with remote server Failed!
+[Net An. Error    (5044:419c)] SSL_connect(ssl_id = 3194729303360 = 000002E7D4B48D40) Failed, ctx = 000002E7D4B47010, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:419c)]   (Sid:  6) SSL handshake with remote server Failed!
+[Network Analyzer (5044:61c0)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:61c0)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5044:323c)] "GET /assets/bootstrap.min.css"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 549 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4007:819:0:0:0:200A: - 443  (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (5044:5068)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (5044:5068)] SSLAccept(ssl_id = 3194729616944 = 000002E7D4B95630) Failed, ctx = 000002E7D4B93A40, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (5044:5068)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 492 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 80 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1305 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1340 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 22 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 363 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (5044:323c)] "GET /assets/bootstrap-table.css"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (5044:323c)] "GET /assets/bootstrap.min.js"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 534 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 404 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 11 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 760 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      (5044:323c)] "GET /assets/bootstrap-table.js"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 536 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 473 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1361 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2600:9000:2634:4A00:1C:E067:200:93A1: - 443  (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (5044:4ed0)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4ed0)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5044:323c)] "GET /keen-tracking.min.js"   
+[Network Analyzer (5044:323c)]   (Sid:  9) Client -> Server @ : 559 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  9) Server -> Client : 6541 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  8) Connection Terminated (by Client)
+[Web Request      (5044:323c)] "GET /favicon.ico"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 766 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 290 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:65d8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:65d8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4a28)]   (Sid: 10) Client -> Server @ : 883 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/pageviews?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 10) Client -> Server @ : 2078 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 10) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 10) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent source transaction [Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (5044: db8)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: db8)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044:4a28)]   (Sid: 11) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/clicks?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 11) Client -> Server @ : 3419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (5044:61bc)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:61bc)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4a28)]   (Sid: 11) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 12) Client -> Server @ : 881 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/changes?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 12) Client -> Server @ : 3419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (5044:3c90)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:3c90)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4a28)]   (Sid: 12) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 13) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/clicks?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 13) Client -> Server @ : 3419 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (5044:4a28)]   (Sid: 13) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent source transaction [API Trapper      ( 9ec:36f4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (3a30:5778)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5044:4a28)]   (Sid: 13) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent destination transaction [Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Net An. Error    (5044:2b40)] SSL_connect(ssl_id = 3194729776608 = 000002E7D4BBC5E0) Failed, ctx = 000002E7D4BF18E0, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:2b40)]   (Sid: 14) SSL handshake with remote server Failed!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (5044:385c)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:385c)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4a28)]   (Sid: 15) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/clicks?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 15) Client -> Server @ : 3415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4274)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4274)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:4a28)]   (Sid: 15) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 16) Client -> Server @ : 881 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/changes?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 16) Client -> Server @ : 3415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (5044:4a28)]   (Sid: 16) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent destination transaction [Network Analyzer (5044:4a28)]   (Sid: 16) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent find flights transaction [Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4007:81B:0:0:0:2003: - 443  (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (5044:441c)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:441c)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044:40dc)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (5044:40dc)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (5044:323c)] "POST /reserve.php"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 1045 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:6504)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:6504)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4009:830:0:0:0:2003: - 443  (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1064 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:6500)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:6500)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044:4a28)]   (Sid: 18) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 19) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.16:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/clicks?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 18) Client -> Server @ : 3415 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/clicks?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 19) Client -> Server @ : 3627 bytes (SSL)(Service=HTTP)
+[Net An. Error    (5044:4ee8)] SSL_connect(ssl_id = 3194730182800 = 000002E7D4C1F890) Failed, ctx = 000002E7D4BF18E0, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:4ee8)]   (Sid: 20) SSL handshake with remote server Failed!
+[Net An. Error    (5044:218c)] SSL_connect(ssl_id = 3194730190240 = 000002E7D4C215A0) Failed, ctx = 000002E7D4BF18E0, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:218c)]   (Sid: 22) SSL handshake with remote server Failed!
+[Network Analyzer (5044:4a28)]   (Sid: 18) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 19) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:4a28)]   (Sid: 19) Connection Terminated (by Client)
+[Web Request      (5044:323c)] "POST /service/update2/json?cup2key=13:x8JSIE1Tz0g0hueXxr3y-7gLmltrB-2z_XpZ2eTkSTQ&cup2hreq=3b1560542288ec93c4d601d52f1e4ecd6c3adb6517c48baa8fcfd8a2627dd976"
+[Network Analyzer (5044:323c)]   (Sid: 21) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid: 21) Client -> Server @ : 8689 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid: 21) Server -> Client : 1152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid: 21) Server -> Client : 1120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid: 21) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent find flights transaction [Network Analyzer (5044:4a28)]   (Sid: 18) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent choose the flight transaction [Web Request      (5044:323c)] "POST /purchase.php"   
+[Network Analyzer (5044:323c)]   (Sid:  7) Client -> Server @ : 1127 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1408 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 1135 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.9:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.9:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Net An. Error    (5044:6938)] SSL_connect(ssl_id = 3194730197680 = 000002E7D4C232B0) Failed, ctx = 000002E7D4BCF580, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:6938)]   (Sid: 23) SSL handshake with remote server Failed!
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.9:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (5044:5d00)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044:5d00)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044:4a28)]   (Sid: 24) Client -> Server @ : 885 bytes (SSL)(Service=HTTP)
+[Web Request      (5044:4a28)] "POST /v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/pageunloads?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9"   
+[Network Analyzer (5044:4a28)]   (Sid: 24) Client -> Server @ : 2082 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.9:443   (Service=)  (Sid= 26)  PROXIED!
+[Net An. Error    (5044:2014)] SSL_connect(ssl_id = 3194733883616 = 000002E7D4FA70E0) Failed, ctx = 000002E7D4BCF580, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:2014)]   (Sid: 25) SSL handshake with remote server Failed!
+[Net An. Error    (5044:2230)] SSL_connect(ssl_id = 3194733891056 = 000002E7D4FA8DF0) Failed, ctx = 000002E7D4BCF580, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044:2230)]   (Sid: 26) SSL handshake with remote server Failed!
+[Network Analyzer (5044:4a28)]   (Sid: 24) Server -> Client : 579 bytes (SSL) (Service=HTTP)
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 2404:6800:4009:80F:0:0:0:200A: - 443  (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (5044:4a28)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (5044:6310)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (5044:6310)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[User action                 ] EndTransactionEvent choose the flight transaction [Web Request      (5044:323c)] "GET /v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzASWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto"   
+[Network Analyzer (5044:323c)]   (Sid: 27) Client -> Server @ : 619 bytes (SSL)(Service=HTTP)
+[Network Analyzer (5044:323c)]   (Sid: 27) Server -> Client : 591 bytes (SSL) (Service=HTTP)
+[User action                 ] StartTransactionEvent details filling transaction [Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (5044: 27c)] Request Connection: Remote Server @ 54.240.162.9:443   (Service=)  (Sid= 28)  PROXIED!
+[Net An. Error    (5044: 984)] SSL_connect(ssl_id = 3194733846416 = 000002E7D4F9DF90) Failed, ctx = 000002E7D4BCF580, err = "error", err code = 1, err msg = "error:00000001:lib(0)::reason(1)
+error:0A000410:SSL routines::sslv3 alert handshake failure
+"
+[Net An. Error    (5044: 984)]   (Sid: 28) SSL handshake with remote server Failed!
+[API Trapper      (2834:62c0)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (5044: 27c)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100

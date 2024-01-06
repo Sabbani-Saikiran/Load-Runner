@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\WebHttpHtml8
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\webhttphtml8\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\webhttphtml8\\combined_WebHttpHtml8.c
+c:\users\sai\onedrive\documents\vugen\scripts\webhttphtml8\\pre_cci.c

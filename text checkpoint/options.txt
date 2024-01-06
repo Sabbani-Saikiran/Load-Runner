@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\text checkpoint
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\text checkpoint\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\text checkpoint\\combined_text checkpoint.c
+c:\users\sai\onedrive\documents\vugen\scripts\text checkpoint\\pre_cci.c

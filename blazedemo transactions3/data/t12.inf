@@ -1,0 +1,11 @@
+[t12]
+FileName1=t12.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=13:ZRH6rHxWUqSXuH-SwX3ZoMZN8dOI0xObFxCZpzcCtFI&cup2hreq=89d6b1e28b7cd53a81b5df452f18665ac6899fff6b120a00b8716ff04d4ddb28
+Total=1
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

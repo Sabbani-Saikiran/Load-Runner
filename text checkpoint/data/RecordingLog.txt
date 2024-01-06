@@ -1,0 +1,66 @@
+[API Trapper      (4dac: bc4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (4090:51fc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (68cc:44fc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (68cc:5d04)] ------------------------------------------------------------------------------------------
+[Network Analyzer (68cc:5d04)] Load Network Traffic Analyzers:
+[Network Analyzer (68cc:5d04)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (68cc:5d04)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (68cc:5d04)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (68cc:5d04)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (68cc:5d04)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (68cc:5d04)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (68cc:5d04)]     Analyzer Module: local_server (value=)
+[Network Analyzer (68cc:5d04)] ------------------------------------------------------------------------------------------
+[Network Analyzer (68cc:4e10)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (68cc:5d04)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 2404:6800:4007:82A:0:0:0:2003: - 443  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (68cc:11d0)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (68cc:11d0)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 2404:6800:4003:C04:0:0:0:8B: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (68cc:3bd4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 2404:6800:4003:C02:0:0:0:BC: - 5228  (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (68cc:4e10)] "GET /"   
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Client -> Server @ : 664 bytes (SSL)(Service=HTTP)
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 2404:6800:4007:81E:0:0:0:2003: - 443  (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (68cc:5cc8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (68cc:5f44)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (68cc:3bd4)] SSLAccept(ssl_id = 2037734320608 = 000001DA726E29E0) Failed, ctx = 000001DA72705E10, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (68cc:5cc8)] SSLAccept(ssl_id = 2037734827936 = 000001DA7275E7A0) Failed, ctx = 000001DA72705E10, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (68cc:3bd4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (68cc:5cc8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (68cc:5f44)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Server -> Client : 1451 bytes (SSL) (Service=HTTP)
+[Web Request      (68cc:4e10)] "GET /css/jpetstore.css"   
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Client -> Server @ : 558 bytes (SSL)(Service=HTTP)
+[API Trapper      (49b4:5738)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Web Request      (68cc:4e10)] "GET /favicon.ico"   
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Server -> Client : 995 bytes (SSL) (Service=HTTP)
+[Network Analyzer (68cc:4e10)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (68cc:55b8)]   (Sid:  4) Client -> Server @ : 156 bytes (SSL)
+[Network Analyzer (68cc:55b8)]   (Sid:  4) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (68cc:55b8)]   (Sid:  4) Server -> Client : 67 bytes (SSL)
+[Network Analyzer (68cc:55b8)]   (Sid:  4) Server -> Client : 12 bytes (SSL)
+[Network Analyzer (68cc:24e0)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (68cc:24e0)] SSLAccept(ssl_id = 2037733847632 = 000001DA7266F250) Failed, ctx = 000001DA72705E10, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (68cc:24e0)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (68cc:55b8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (68cc:55b8)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (68cc:55b8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (68cc:5d04)] Request Connection: Remote Server @ 2404:6800:4007:824:0:0:0:200A: - 443  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (68cc:587c)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (68cc:587c)] SSLAccept(ssl_id = 2037734320608 = 000001DA726E29E0) Failed, ctx = 000001DA72705E10, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (68cc:587c)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (68cc:55b8)]   (Sid:  6) Connection Terminated (by Client)
+[WebMultiInProcNotify_x64:  (4dac:5f6c)] Insert Text Check: "Welcome to JPetStore 6"

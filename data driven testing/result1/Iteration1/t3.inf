@@ -1,0 +1,24 @@
+[t3]
+FileName2=t2_8_bootstrap-table.UNK
+RawStepEndTime=1704264699289
+FileName5=t2_2_bootstrap-table.css
+FileName4=t2_4_bootstrap.css
+FileName6=t2_0_2.js
+RequestBodyFile=t3_RequestBody.txt
+RawStepName=reserve.php
+ContentType=text/html
+URL1=https://blazedemo.com/reserve.php
+URL2=https://blazedemo.com/assets/bootstrap-table.js
+URL3=https://blazedemo.com/assets/bootstrap.min.js
+ResponseHeaderFile=t3_ResponseHeader.txt
+URL4=https://blazedemo.com/assets/bootstrap.min.css
+URL5=https://blazedemo.com/assets/bootstrap-table.css
+URL6=http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t3_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1704264698784
+Total=6
+StepName=Submit Form: reserve.php
+FileName1=t3.html
+FileName3=t2_6_bootstrap.UNK

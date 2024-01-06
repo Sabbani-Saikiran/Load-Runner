@@ -1,0 +1,17 @@
+[t96]
+FileName1=t96.htm
+URL1=https://blazedemo.com/
+Total=4
+RequestHeaderFile=t96_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t96_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_96.xml
+FileName2=t96_bootstrap.min.html
+URL2=https://blazedemo.com/assets/bootstrap.min.js
+FileName3=t96_bootstrap.min.css
+URL3=https://blazedemo.com/assets/bootstrap.min.css
+FileName4=t96_bootstrap-table.css
+URL4=https://blazedemo.com/assets/bootstrap-table.css
+[ProtocolInfo]
+ProtocolId=QTWeb

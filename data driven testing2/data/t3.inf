@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.htm
+URL1=https://blazedemo.com/purchase.php
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

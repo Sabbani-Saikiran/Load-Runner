@@ -1,0 +1,96 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: advantageonlineshopping.com",
+                "infFile": "t3.inf",
+                "time": 1704425783554
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: ALL",
+                "infFile": "t4.inf",
+                "time": 1704425784018
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: collect",
+                "infFile": "t5.inf",
+                "time": 1704425784213
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t6.inf",
+                "time": 1704425784933
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: categories",
+                "infFile": "t7.inf",
+                "time": 1704425785515
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: search",
+                "infFile": "t8.inf",
+                "time": 1704425786044
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: popularProducts.json",
+                "infFile": "t9.inf",
+                "time": 1704425786442
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: home-page.html",
+                "infFile": "t10.inf",
+                "time": 1704425787478
+            },
+            {
+                "stepId": "STEP9",
+                "stepName": "Custom Request: json",
+                "infFile": "t11.inf",
+                "time": 1704425805218
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t12.inf",
+                "time": 1704425837724
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: 655606527",
+                "infFile": "t14.inf",
+                "time": 1704425838741
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "user_transaction",
+                "rawStartTime": 1704425804510,
+                "rawEndTime": 1704425804524,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "login_details_transaction",
+                "rawStartTime": 1704425804541,
+                "rawEndTime": 1704425805227,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012102365493774414
+            },
+            {
+                "transactionName": "sign_in_transaction",
+                "rawStartTime": 1704425836268,
+                "rawEndTime": 1704425838744,
+                "thinkTime": 0.0,
+                "wastedTime": 0.02454066276550293
+            }
+        ]
+    }
+]

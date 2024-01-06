@@ -1,0 +1,540 @@
+****** Start Log Message ******
+Web Recorder version : 2023.0.0.506 
+Recording Mode: HTML-based script
+Not recording headers
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Record non-HTML elements in current HTML function
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2023.0.0.506
+
+****** Analyze segments filter initialization ******
+****** Request Header For Transaction With Id 373 ******
+GET / HTTP/1.1
+Host: petstore.octoperf.com
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 373 Ended $$$$$$
+
+****** Response Header For Transaction With Id 373 ******
+HTTP/1.1 200 
+Date: Tue, 02 Jan 2024 07:27:51 GMT
+Content-Type: text/html
+Content-Length: 1155
+Connection: keep-alive
+Accept-Ranges: bytes
+ETag: W/"1155-1645112688000"
+Last-Modified: Thu, 17 Feb 2022 15:44:48 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 373 Ended $$$$$$
+
+****** Response Body For Transaction With Id 373 ******
+<!--
+
+       Copyright 2010-2016 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>JPetStore Demo</title>
+  <link rel="StyleSheet" href="css/jpetstore.css" type="text/css" media="screen"/>
+</head>
+
+<body>
+<div id="Content">
+  <h2>Welcome to JPetStore 6</h2>
+
+  <p><a href="actions/Catalog.action">Enter the Store</a></p>
+
+  <p><sub>Copyright www.mybatis.org </sub></p>
+
+</div>
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 373 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Start Log Message ******
+Set SSL version to 'AUTO'
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 373 ****** (Location Flag : tFlagInsertEnd, Location ID : 373)
+	web_url("petstore.octoperf.com",
+		"URL=https://petstore.octoperf.com/",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=",
+		"Snapshot=t19.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 373 Ended $$$$$$
+
+****** Request Header For Transaction With Id 386 ******
+GET /css/jpetstore.css HTTP/1.1
+Host: petstore.octoperf.com
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: text/css,*/*;q=0.1
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: style
+Referer: https://petstore.octoperf.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 386 Ended $$$$$$
+
+****** Response Header For Transaction With Id 386 ******
+HTTP/1.1 200 
+Date: Tue, 02 Jan 2024 07:27:57 GMT
+Content-Type: text/css
+Content-Length: 5680
+Connection: keep-alive
+Accept-Ranges: bytes
+ETag: W/"5680-1645112688000"
+Last-Modified: Thu, 17 Feb 2022 15:44:48 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 386 Ended $$$$$$
+
+****** Response Body For Transaction With Id 386 ******
+/**
+ *    Copyright 2010-2020 the original author or authors.
+ *
+ *    Licensed under the Apache License, Version 2.0 (the "License");
+ *    you may not use this file except in compliance with the License.
+ *    You may obtain a copy of the License at
+ *
+ *       http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *    Unless required by applicable law or agreed to in writing, software
+ *    distributed under the License is distributed on an "AS IS" BASIS,
+ *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *    See the License for the specific language governing permissions and
+ *    limitations under the License.
+ */
+body {
+  margin: 0ex 10ex 0ex 10ex;
+  padding: 0ex;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-size: 2ex;
+  color: #333;
+  background-color: #444;
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+
+  font-style: normal;
+  background-color: #FFFFFF;
+  white-space: pre
+}
+
+h1 {
+  margin: 1ex 0ex 1ex 0ex;
+  padding: 0ex;
+
+  line-height: 3ex;
+  font-weight: 900;
+  color: #666;
+}
+
+h2 {
+  margin: 2ex 0ex 1ex 0ex;
+  padding: 0ex;
+
+  line-height: 2ex;
+  font-weight: 700;
+  color: #444;
+}
+
+h3 {
+  margin: 1ex 0ex 1ex 0ex;
+  padding: 0ex;
+
+  line-height: 1.6ex;
+  font-weight: 700;
+  color: #222;
+}
+
+p {
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 2ex;
+}
+
+img {
+  border: 0;
+}
+
+li {
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex;
+}
+
+table {
+  border-width: 0;
+  empty-cells: show;
+}
+
+td, th {
+  empty-cells: show;
+  padding: .3ex .3ex;
+  vertical-align: top;
+  text-align: left;
+  border-width: 0;
+  border-spacing: 0;
+  background-color: #ececec
+}
+
+th {
+  font-weight: bold;
+  background-color: #e2e2e2;
+}
+
+a, a:visited, a:link {
+  color: #039;
+
+  text-decoration: none;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+}
+
+a:hover {
+  color: #69f;
+}
+
+a.Button, a.Button:link, a.Button:visited {
+  padding: .3ex;
+  color: #fff;
+  background-color: #005e21;
+  text-decoration: none;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-size: 1.5ex;
+}
+
+a.Button:hover {
+  color: #000;
+  background-color: #54c07a;
+}
+
+#Logo {
+  width: 33%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: 0ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+}
+
+body>#Logo {
+  height: 9ex;
+}
+
+#Menu {
+  width: 33%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: 0ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  background-color: #000;
+  color: #eaac00;
+  text-decoration: none;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  text-align: center;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+}
+
+#Menu, #Menu a, #Menu a:link, #Menu a:visited, #Menu a:hover {
+  color: #eaac00;
+  text-decoration: none;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+}
+
+body>#Menu {
+  height: 9ex;
+}
+
+ {
+}
+
+#Search {
+  width: 33%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: 0ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  text-align: center;
+  background-color: #000;
+  color: #eaac00;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+}
+
+body>#Search {
+  height: 9ex;
+}
+
+#Search input {
+  border-width: .1ex .1ex .1ex .1ex;
+  border-style: solid;
+  border-color: #aaa;
+  background-color: #666;
+  color: #eaac00;
+}
+
+#QuickLinks {
+  text-align: center;
+  background-color: #FFF;
+  width: 99%;
+}
+
+#PoweredBy {
+  width: 30%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: .3ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+}
+
+body>#PoweredBy {
+  height: 9ex;
+}
+
+#Banner {
+  width: 69%;
+  height: 9ex;
+  margin: 0ex 0ex 0ex 0ex;
+  padding: 0ex 0ex 0ex 0ex;
+  border-width: .3ex 0ex .3ex 0px;
+  border-style: solid;
+  border-color: #ccc;
+  float: left;
+  background-color: #000;
+  color: #fff;
+  line-height: 9ex;
+  voice-family: "\"}\"";
+  voice-family: inherit;
+}
+
+body>#Banner {
+  height: 9ex;
+}
+
+#Content {
+  margin: 0;
+  padding: 0ex 0ex 0ex 0ex;
+  width: 99%;
+  color: #333;
+  background-color: #FFF;
+  border-width: 0;
+}
+
+#Separator {
+  clear:both;
+  margin: 0;
+  height:0;
+}
+
+#Main {
+  margin: 0;
+  padding: 1ex;
+  color: #333;
+  background-color: #FFF;
+  border-width: 1ex 0ex 2ex 0px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+#Sidebar {
+  float: left;
+  background:inherit;
+  width: 30%;
+}
+
+#MainImage {
+  float: left;
+  background:inherit;
+  text-align:center;
+  width: 50%;
+}
+
+#Catalog {
+  padding: 1ex;
+  background:inherit;
+  text-align:center;
+}
+
+#Catalog input[type="submit"]{
+  padding: .3ex;
+  color: #fff;
+  background-color: #005e21;
+  text-decoration: none;
+  font-family: helvetica, tahoma, arial, verdana, sans-serif;
+  font-size: 1.5ex;
+  border-width:0;
+}
+#Catalog input[type="submit"]:hover {
+  color: #000;
+  background-color: #54c07a;
+  cursor:pointer;
+}
+
+#Catalog table{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#BackLink{
+  padding: 1ex;
+  float: right;
+  border-width: .1ex 0ex .1ex 0px;
+  border-style: solid;
+  border-color: #000;
+}
+
+#Cart{
+  width: 69.99%;
+  float: left;
+  background-color:#fff;
+}
+
+#MyList{
+  width: 30%;
+  float: left;
+  background-color:#ccc;
+  text-align:left;
+}
+
+$$$$$$ Response Body For Transaction With Id 386 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 390 ******
+GET /favicon.ico HTTP/1.1
+Host: petstore.octoperf.com
+Connection: keep-alive
+sec-ch-ua: "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://petstore.octoperf.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+
+
+$$$$$$ Request Header For Transaction With Id 390 Ended $$$$$$
+
+****** Response Header For Transaction With Id 390 ******
+HTTP/1.1 404 
+Date: Tue, 02 Jan 2024 07:27:57 GMT
+Content-Type: text/html;charset=utf-8
+Content-Length: 762
+Connection: keep-alive
+Content-Language: en
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+
+$$$$$$ Response Header For Transaction With Id 390 Ended $$$$$$
+
+****** Response Body For Transaction With Id 390 ******
+<!doctype html><html lang="en"><head><title>HTTP Status 404 – Not Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404 – Not Found</h1><hr class="line" /><p><b>Type</b> Status Report</p><p><b>Message</b> The requested resource [&#47;favicon.ico] is not available</p><p><b>Description</b> The origin server did not find a current representation for the target resource or is not willing to disclose that one exists.</p><hr class="line" /><h3>Apache Tomcat/9.0.62</h3></body></html>
+$$$$$$ Response Body For Transaction With Id 390 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

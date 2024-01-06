@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\image checkpoint
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\image checkpoint\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\image checkpoint\\combined_image checkpoint.c
+c:\users\sai\onedrive\documents\vugen\scripts\image checkpoint\\pre_cci.c

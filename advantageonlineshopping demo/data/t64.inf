@@ -1,0 +1,15 @@
+[t64]
+FileName1=t64.xml
+URL1=https://advantageonlineshopping.com/accountservice/ws/GetCountriesRequest
+Total=3
+RequestHeaderFile=t64_RequestHeader.txt
+RequestBodyFile=t64_RequestBody.txt
+ResponseHeaderFile=t64_ResponseHeader.txt
+ContentType=text/xml
+SnapshotXmlFile=snapshot_64.xml
+FileName2=t64_User.jpeg
+URL2=https://advantageonlineshopping.com/css/images/User.jpg
+FileName3=t64_Shipex.png
+URL3=https://advantageonlineshopping.com/css/images/Shipex.png
+[ProtocolInfo]
+ProtocolId=QTWeb

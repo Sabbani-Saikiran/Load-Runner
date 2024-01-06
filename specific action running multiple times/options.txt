@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\specific action running multiple times
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\specific action running multiple times\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\specific action running multiple times\\combined_specific action running multiple times.c
+c:\users\sai\onedrive\documents\vugen\scripts\specific action running multiple times\\pre_cci.c

@@ -1,0 +1,15 @@
+[t38]
+FileName1=t38_ALL.json
+URL1=https://advantageonlineshopping.com/catalog/api/v1/DemoAppConfig/parameters/by_tool/ALL
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_38.xml
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+FileName2=t38_logo.png
+URL2=https://advantageonlineshopping.com/css/images/logo.png
+FileName3=t38_analytics.html
+URL3=https://www.google-analytics.com/analytics.js
+[ProtocolInfo]
+ProtocolId=QTWeb

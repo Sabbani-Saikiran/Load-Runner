@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_0000215.png
+URL1=https://demowebshop.tricentis.com/content/images/thumbs/0000215.png
+Total=1
+ContentType=image/png
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

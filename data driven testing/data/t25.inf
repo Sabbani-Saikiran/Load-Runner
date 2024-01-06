@@ -1,0 +1,13 @@
+[t25]
+FileName1=t25.html
+URL1=http://ocsp.pki.goog/gts1c3
+Total=2
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=t25_RequestBody.txt
+ResponseHeaderFile=t25_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_25.xml
+FileName2=t25_threatListUpdates_fetch.html
+URL2=https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARCfuBQaAhgCMpCo2CICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEI3KDRoCGAIUrtP4IgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQvcENGgIYAh9jYIsiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDHkA4aAhgCwvrn3yICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgCtT3I5CICIAIoAQ==
+[ProtocolInfo]
+ProtocolId=QTWeb

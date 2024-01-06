@@ -1,0 +1,8 @@
+[t3]
+FileName1=t3_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120
+Total=2
+ContentType=application/x-chrome-extension
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_NDGIMIBANHLABGDGJCPBBNDIEHLJCPFH_5_1_8_0.html
+URL2=https://clients2.googleusercontent.com/crx/blobs/AeKPYwxH_khl3ineh7ieDifvVDmPCFIwpFpLPQ-D6PhdBT94OvOxzq7wflGWwcNRSp5o1S03Une4dRsNbaiinag-xOdQ71mVAzqVPjswIgjlWawgc3ktAMZSmuXHEQrP0bDGVk4fi_-eiVZzrdX--w/NDGIMIBANHLABGDGJCPBBNDIEHLJCPFH_5_1_8_0.crx

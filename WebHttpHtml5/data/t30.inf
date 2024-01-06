@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30_0000172_build-your-own-cheap-computer_125.jpeg
+URL1=https://demowebshop.tricentis.com/content/images/thumbs/0000172_build-your-own-cheap-computer_125.jpeg
+Total=1
+ContentType=image/jpeg
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

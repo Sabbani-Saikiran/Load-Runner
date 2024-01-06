@@ -1,0 +1,11 @@
+[t68]
+FileName1=t68_VersionCheck.json
+URL1=https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=UFT.Firefox.Agent.2023@microfocus.com&version=2023.4.0.1163&maxAppVersion=null&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=121.0&appOS=WINNT&appABI=x86_64-msvc&locale=en-US&currentAppVersion=121.0&updateType=112&compatMode=normal
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_68.xml
+RequestHeaderFile=t68_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t68_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

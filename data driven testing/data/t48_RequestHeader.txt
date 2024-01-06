@@ -1,0 +1,9 @@
+GET /v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1704067264826&_since=%221703462463604%22 HTTP/1.1
+Host: firefox.settings.services.mozilla.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Connection: keep-alive
+

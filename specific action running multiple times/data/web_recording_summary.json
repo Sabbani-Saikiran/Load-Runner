@@ -1,0 +1,303 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jan-02-2024",
+    "RecordingDuration": 44078,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1704196092,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 71768,
+    "TotalBytesSent": 15620,
+    "TotalRequests": 22,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "octoperf.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "49.12.128.248",
+          "IncludeInScript": true,
+          "Name": "petstore.octoperf.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 123,
+              "HttpStatus": 200,
+              "Size": 3751,
+              "URL": "https://petstore.octoperf.com/actions/Order.action?newOrderForm="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 500,
+              "EventId": 115,
+              "HttpStatus": 200,
+              "Size": 4192,
+              "URL": "https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&workingItemId=EST-1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 112,
+              "HttpStatus": 200,
+              "Size": 3635,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action?viewProduct=&productId=FI-SW-01"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 250,
+              "EventId": 106,
+              "HttpStatus": 200,
+              "Size": 3457,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action;jsessionid=8E42091D5685C9A42487CB396B76AF01?viewCategory=&categoryId=FISH"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 97,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://petstore.octoperf.com/images/dogs_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 95,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "https://petstore.octoperf.com/images/sm_reptiles.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 235,
+              "EventId": 93,
+              "HttpStatus": 200,
+              "Size": 251,
+              "URL": "https://petstore.octoperf.com/images/sm_birds.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 438,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 408,
+              "URL": "https://petstore.octoperf.com/images/cats_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 82,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "https://petstore.octoperf.com/images/birds_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 407,
+              "EventId": 80,
+              "HttpStatus": 200,
+              "Size": 669,
+              "URL": "https://petstore.octoperf.com/images/reptiles_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 375,
+              "EventId": 78,
+              "HttpStatus": 200,
+              "Size": 439,
+              "URL": "https://petstore.octoperf.com/images/fish_icon.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 36097,
+              "URL": "https://petstore.octoperf.com/images/splash.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 289,
+              "URL": "https://petstore.octoperf.com/images/sm_cats.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 234,
+              "EventId": 66,
+              "HttpStatus": 200,
+              "Size": 46,
+              "URL": "https://petstore.octoperf.com/images/separator.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 64,
+              "HttpStatus": 200,
+              "Size": 271,
+              "URL": "https://petstore.octoperf.com/images/sm_fish.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 219,
+              "EventId": 62,
+              "HttpStatus": 200,
+              "Size": 96,
+              "URL": "https://petstore.octoperf.com/images/cart.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 203,
+              "EventId": 60,
+              "HttpStatus": 200,
+              "Size": 306,
+              "URL": "https://petstore.octoperf.com/images/sm_dogs.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 266,
+              "EventId": 41,
+              "HttpStatus": 200,
+              "Size": 3808,
+              "URL": "https://petstore.octoperf.com/images/logo-topbar.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 36,
+              "HttpStatus": 200,
+              "Size": 5119,
+              "URL": "https://petstore.octoperf.com/actions/Catalog.action"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 24,
+              "HttpStatus": 404,
+              "Size": 762,
+              "URL": "https://petstore.octoperf.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 437,
+              "EventId": 20,
+              "HttpStatus": 200,
+              "Size": 5680,
+              "URL": "https://petstore.octoperf.com/css/jpetstore.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 485,
+              "EventId": 18,
+              "HttpStatus": 200,
+              "Size": 1155,
+              "URL": "https://petstore.octoperf.com/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

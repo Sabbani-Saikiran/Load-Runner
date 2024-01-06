@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: blazedemo.com",
+                "infFile": "t1.inf",
+                "time": 1704274363312
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reserve.php",
+                "infFile": "t3.inf",
+                "time": 1704274472345
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: json",
+                "infFile": "t4.inf",
+                "time": 1704274472777
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Submit Data: purchase.php",
+                "infFile": "t5.inf",
+                "time": 1704274500423
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "source_transaction",
+                "rawStartTime": 1704274471349,
+                "rawEndTime": 1704274471365,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "destination_transaction",
+                "rawStartTime": 1704274471382,
+                "rawEndTime": 1704274471395,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "Find Flights transaction",
+                "rawStartTime": 1704274471412,
+                "rawEndTime": 1704274472785,
+                "thinkTime": 0.0,
+                "wastedTime": 0.055495262145996097
+            },
+            {
+                "transactionName": "choose this flight transaction",
+                "rawStartTime": 1704274472802,
+                "rawEndTime": 1704274500432,
+                "thinkTime": 27.007985,
+                "wastedTime": 0.018182992935180665
+            }
+        ]
+    }
+]

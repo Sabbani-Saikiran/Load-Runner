@@ -1,0 +1,552 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/woff2"
+    },
+    {
+      "IsNonResource": false,
+      "type": "font/ttf"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 6,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Jan-02-2024",
+    "RecordingDuration": 37171,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1704177902,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 7096097,
+    "TotalBytesSent": 29235,
+    "TotalRequests": 47,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "tricentis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "213.208.137.137",
+          "IncludeInScript": true,
+          "Name": "sampleapp.tricentis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 568,
+              "HttpStatus": 200,
+              "Size": 1388,
+              "URL": "https://sampleapp.tricentis.com/101/forms/img/validation.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 250,
+              "EventId": 566,
+              "HttpStatus": 200,
+              "Size": 3953,
+              "URL": "https://sampleapp.tricentis.com/101/forms/img/radiocheck.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 235,
+              "EventId": 564,
+              "HttpStatus": 200,
+              "Size": 1122,
+              "URL": "https://sampleapp.tricentis.com/101/images/dropdown-arrow.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 313,
+              "EventId": 562,
+              "HttpStatus": 200,
+              "Size": 866,
+              "URL": "https://sampleapp.tricentis.com/101/forms/customization/makeapp.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 266,
+              "EventId": 560,
+              "HttpStatus": 200,
+              "Size": 5412,
+              "URL": "https://sampleapp.tricentis.com/101/alerts/dist/sweetalert.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 266,
+              "EventId": 558,
+              "HttpStatus": 200,
+              "Size": 845,
+              "URL": "https://sampleapp.tricentis.com/101/hexagons/js/hexagons.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 250,
+              "EventId": 556,
+              "HttpStatus": 200,
+              "Size": 482,
+              "URL": "https://sampleapp.tricentis.com/101/tables/pricetableclickhandler.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 250,
+              "EventId": 554,
+              "HttpStatus": 200,
+              "Size": 3301,
+              "URL": "https://sampleapp.tricentis.com/101/forms/customization/calculations.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 531,
+              "EventId": 549,
+              "HttpStatus": 200,
+              "Size": 24017,
+              "URL": "https://sampleapp.tricentis.com/101/forms/js/out/jquery.idealforms.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 515,
+              "EventId": 547,
+              "HttpStatus": 200,
+              "Size": 279,
+              "URL": "https://sampleapp.tricentis.com/101/forms/customization/costumrules.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 485,
+              "EventId": 545,
+              "HttpStatus": 200,
+              "Size": 203,
+              "URL": "https://sampleapp.tricentis.com/101/forms/customization/costumerrors.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 266,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 98,
+              "URL": "https://sampleapp.tricentis.com/101/images/arrow.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 484,
+              "EventId": 540,
+              "HttpStatus": 200,
+              "Size": 778,
+              "URL": "https://sampleapp.tricentis.com/101/forms/customization/configuration.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 500,
+              "EventId": 538,
+              "HttpStatus": 200,
+              "Size": 60627,
+              "URL": "https://sampleapp.tricentis.com/101/jquery/jquery-ui-1.10.3.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 235,
+              "EventId": 536,
+              "HttpStatus": 200,
+              "Size": 2009,
+              "URL": "https://sampleapp.tricentis.com/101/isLoading/isLoading.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 297,
+              "EventId": 534,
+              "HttpStatus": 200,
+              "Size": 949,
+              "URL": "https://sampleapp.tricentis.com/101/forms/css/normalize.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 265,
+              "EventId": 532,
+              "HttpStatus": 200,
+              "Size": 2139,
+              "URL": "https://sampleapp.tricentis.com/101/loader/xloader.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 235,
+              "EventId": 530,
+              "HttpStatus": 200,
+              "Size": 3732,
+              "URL": "https://sampleapp.tricentis.com/101/hexagons/css/hexagons.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 234,
+              "EventId": 528,
+              "HttpStatus": 200,
+              "Size": 3705,
+              "URL": "https://sampleapp.tricentis.com/101/alerts/dist/sweetalert.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 234,
+              "EventId": 526,
+              "HttpStatus": 200,
+              "Size": 2856,
+              "URL": "https://sampleapp.tricentis.com/101/forms/css/jquery.idealforms.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 8275,
+              "URL": "https://sampleapp.tricentis.com/101/app.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/vnd.microsoft.icon",
+              "DownloadTime": 281,
+              "EventId": 518,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://sampleapp.tricentis.com/101/images/tosca.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 781,
+              "EventId": 148,
+              "HttpStatus": 200,
+              "Size": 1313733,
+              "URL": "https://sampleapp.tricentis.com/101/images/slider_car.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 765,
+              "EventId": 145,
+              "HttpStatus": 200,
+              "Size": 1565538,
+              "URL": "https://sampleapp.tricentis.com/101/images/slider_truck.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 750,
+              "EventId": 143,
+              "HttpStatus": 200,
+              "Size": 1633572,
+              "URL": "https://sampleapp.tricentis.com/101/images/slider_camper.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 735,
+              "EventId": 140,
+              "HttpStatus": 200,
+              "Size": 1346806,
+              "URL": "https://sampleapp.tricentis.com/101/images/slider_bike.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/woff2",
+              "DownloadTime": 797,
+              "EventId": 138,
+              "HttpStatus": 200,
+              "Size": 66624,
+              "URL": "https://sampleapp.tricentis.com/101/layout/fonts/awesome/fontawesome-webfont.woff2?v=4.5.0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/ttf",
+              "DownloadTime": 234,
+              "EventId": 132,
+              "HttpStatus": 200,
+              "Size": 222412,
+              "URL": "https://sampleapp.tricentis.com/101/layout/fonts/open_sans/OpenSans-Light.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 656,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 216157,
+              "URL": "https://sampleapp.tricentis.com/101/images/photo_car.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "font/ttf",
+              "DownloadTime": 562,
+              "EventId": 86,
+              "HttpStatus": 200,
+              "Size": 217360,
+              "URL": "https://sampleapp.tricentis.com/101/layout/fonts/open_sans/OpenSans-Regular.ttf"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 563,
+              "EventId": 83,
+              "HttpStatus": 200,
+              "Size": 119060,
+              "URL": "https://sampleapp.tricentis.com/101/images/photo_truck.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 547,
+              "EventId": 81,
+              "HttpStatus": 200,
+              "Size": 99538,
+              "URL": "https://sampleapp.tricentis.com/101/images/photo_bike.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 516,
+              "EventId": 79,
+              "HttpStatus": 200,
+              "Size": 27319,
+              "URL": "https://sampleapp.tricentis.com/101/images/photo_camper.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 281,
+              "EventId": 76,
+              "HttpStatus": 200,
+              "Size": 72469,
+              "URL": "https://sampleapp.tricentis.com/101/jquery/jquery-flexslider-2.2.2.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 234,
+              "EventId": 74,
+              "HttpStatus": 200,
+              "Size": 214,
+              "URL": "https://sampleapp.tricentis.com/101/navigation/navigation.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 235,
+              "EventId": 72,
+              "HttpStatus": 200,
+              "Size": 590,
+              "URL": "https://sampleapp.tricentis.com/101/layout/js/app.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 235,
+              "EventId": 70,
+              "HttpStatus": 200,
+              "Size": 1395,
+              "URL": "https://sampleapp.tricentis.com/101/cookies/jquery.cookie.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 219,
+              "EventId": 68,
+              "HttpStatus": 200,
+              "Size": 1524,
+              "URL": "https://sampleapp.tricentis.com/101/images/app_icon_people.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 422,
+              "EventId": 63,
+              "HttpStatus": 200,
+              "Size": 1509,
+              "URL": "https://sampleapp.tricentis.com/101/images/app_icon_24.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 390,
+              "EventId": 60,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://sampleapp.tricentis.com/101/images/app_icon_car.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 375,
+              "EventId": 58,
+              "HttpStatus": 200,
+              "Size": 1157,
+              "URL": "https://sampleapp.tricentis.com/101/images/app_icon_relax.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 641,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 33953,
+              "URL": "https://sampleapp.tricentis.com/101/jquery/jquery-1.12.0.min.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 266,
+              "EventId": 52,
+              "HttpStatus": 200,
+              "Size": 5182,
+              "URL": "https://sampleapp.tricentis.com/101/images/logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 266,
+              "EventId": 50,
+              "HttpStatus": 200,
+              "Size": 8566,
+              "URL": "https://sampleapp.tricentis.com/101/layout/css/style.css?v3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 218,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 2351,
+              "URL": "https://sampleapp.tricentis.com/101/layout/fonts/lineo/style.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 235,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 6235,
+              "URL": "https://sampleapp.tricentis.com/101/layout/fonts/awesome/font-awesome.min.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 218,
+              "EventId": 26,
+              "HttpStatus": 200,
+              "Size": 3362,
+              "URL": "https://sampleapp.tricentis.com/101/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 0
+}

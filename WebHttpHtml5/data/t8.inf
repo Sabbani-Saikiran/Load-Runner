@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_styles.css
+URL1=https://demowebshop.tricentis.com/Themes/DefaultClean/Content/styles.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

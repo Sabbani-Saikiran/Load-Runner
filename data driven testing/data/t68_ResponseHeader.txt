@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Wed, 03 Jan 2024 05:00:54 GMT
+Content-Type: application/json
+Content-Length: 70
+Cache-Control: max-age=3600
+X-Amo-Request-Id: 5d6fd06c5b9c486ab04e4a7156bf2acb
+ETag: "9ec3a2a859dd2c6d8dda41b414584dca"
+Content-Security-Policy: default-src 'none'; script-src https://www.google-analytics.com/analytics.js https://www.googletagmanager.com/gtag/js https://www.recaptcha.net/recaptcha/ https://www.gstatic.com/recaptcha/ https://www.gstatic.cn/recaptcha/ https://addons.mozilla.org/static-server/; child-src https://www.recaptcha.net/recaptcha/; frame-src https://www.recaptcha.net/recaptcha/; font-src 'self' https://addons.mozilla.org/static-server/; media-src https://videos.cdn.mozilla.net; img-src 'self' blob: data: https://addons.mozilla.org/static-server/ https://addons.mozilla.org/user-media/; connect-src 'self' https://*.google-analytics.com; style-src 'unsafe-inline' https://addons.mozilla.org/static-server/; form-action 'self'; object-src 'none'; report-uri /__cspreport__
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+Cross-Origin-Opener-Policy: same-origin
+Public-Key-Pins: max-age=5184000; includeSubDomains; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="
+Via: 1.1 google, 1.1 google
+x-cache-status: miss
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

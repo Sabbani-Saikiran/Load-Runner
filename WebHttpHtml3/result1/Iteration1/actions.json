@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.swagger.io",
+                "infFile": "t2.inf",
+                "time": 1704172760346
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: swagger.json",
+                "infFile": "t3.inf",
+                "time": 1704172760956
+            }
+        ],
+        "transactions": []
+    }
+]

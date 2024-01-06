@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.json
+URL1=http://update.googleapis.com/service/update2/json?cup2key=13:ErraET1QGbGke31mKIdc2zQSLH0RnbzsvkILHh0njs4&cup2hreq=735e40c17dedce727bf04bc2718bf32b4c4d04b6d1ddb88c5e3ac4c1ee9cee75
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_keen-tracking.min.html
+URL2=https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

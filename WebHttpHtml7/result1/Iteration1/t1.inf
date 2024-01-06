@@ -1,0 +1,11 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=DummyContentType
+StepName=Url: Order.action
+Total=0
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=1704180419724
+RawStepName=Order.action
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1704180419110

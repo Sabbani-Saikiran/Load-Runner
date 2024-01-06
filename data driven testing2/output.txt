@@ -1,0 +1,77 @@
+Virtual User Script started at: 1/5/2024 12:24:59 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\data driven testing2\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(6): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("blazedemo.com") was successful, 68734 body bytes, 2721 header bytes  	[MsgId: MMSG-26386]
+Action.c(15): lr_think_time: 8.00 seconds.
+Action.c(17): web_submit_form("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(17): Submitting form to "https://blazedemo.com/reserve.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(17): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): web_submit_form("reserve.php") was successful, 1913 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): web_submit_form("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(24): Submitting form to "https://blazedemo.com/purchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(24): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Downloading resource "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto" (specified by argument number 6)  	[MsgId: MMSG-26576]
+Action.c(24): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(24): web_submit_form("purchase.php") highest severity level was "warning", 2209 body bytes, 687 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(6): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(6): web_url("blazedemo.com") was successful, 68734 body bytes, 2721 header bytes  	[MsgId: MMSG-26386]
+Action.c(15): lr_think_time: 8.00 seconds.
+Action.c(17): web_submit_form("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(17): Submitting form to "https://blazedemo.com/reserve.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(17): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(17): web_submit_form("reserve.php") was successful, 1912 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(24): web_submit_form("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(24): Submitting form to "https://blazedemo.com/purchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(24): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(24): Downloading resource "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto" (specified by argument number 6)  	[MsgId: MMSG-26576]
+Action.c(24): Warning -26630: HTTP Status-Code=400 (Bad Request) for "https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzESWAlgdZD1gGcJJRIFDR87IvsSBQ2U1FseEgUNRmcVfRIFDfKo5J0SBQ2gOKZlEgUN6vDYJxIFDYbgKPASBQ14tFrJEgUNUk1bIRIFDdGFyLghOjPq5EZxRW4=?alt=proto"  	[MsgId: MWAR-26630]
+Action.c(24): web_submit_form("purchase.php") highest severity level was "warning", 2209 body bytes, 687 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

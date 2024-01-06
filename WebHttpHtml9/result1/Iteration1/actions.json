@@ -1,0 +1,73 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1704184373170
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Enter the Store",
+                "infFile": "t2.inf",
+                "time": 1704184374182
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Image: sm_fish.gif",
+                "infFile": "t4.inf",
+                "time": 1704184374704
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: json",
+                "infFile": "t5.inf",
+                "time": 1704184375245
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Catalog.action",
+                "infFile": "t6.inf",
+                "time": 1704184375645
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t7.inf",
+                "time": 1704184375996
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "enter_the_store",
+                "rawStartTime": 1704184373191,
+                "rawEndTime": 1704184374204,
+                "thinkTime": 0.0,
+                "wastedTime": 0.024355411529541017
+            },
+            {
+                "transactionName": "select_fish",
+                "rawStartTime": 1704184374236,
+                "rawEndTime": 1704184374706,
+                "thinkTime": 0.0,
+                "wastedTime": 0.023627281188964845
+            },
+            {
+                "transactionName": "select_FI-SW-01",
+                "rawStartTime": 1704184375271,
+                "rawEndTime": 1704184375649,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010364055633544922
+            },
+            {
+                "transactionName": "add_to_cart",
+                "rawStartTime": 1704184375681,
+                "rawEndTime": 1704184376010,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010112285614013672
+            }
+        ]
+    }
+]

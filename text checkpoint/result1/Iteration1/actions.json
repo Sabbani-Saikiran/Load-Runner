@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1704194960675
+            }
+        ],
+        "transactions": []
+    }
+]

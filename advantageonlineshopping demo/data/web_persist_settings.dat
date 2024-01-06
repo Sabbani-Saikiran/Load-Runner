@@ -1,0 +1,17 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/01/04 16:11:31
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/01/04 16:34:02
+StartRecordingIsDst_2=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1
+UserName_1_1=demouser2
+Password_1_1=Demouser123
+Realm_1_1=advantageonlineshopping.com:443
+EventId_1_1=301
+UserName_2_1=demouser2
+Password_2_1=Demouser123
+Realm_2_1=advantageonlineshopping.com:443
+EventId_2_1=800

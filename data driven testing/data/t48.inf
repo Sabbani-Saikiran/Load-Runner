@@ -1,0 +1,13 @@
+[t48]
+FileName1=t48_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1704067264826&_since=%221703462463604%22
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_48.xml
+RequestHeaderFile=t48_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t48_ResponseHeader.txt
+FileName2=t48_bootstrap-table.css
+URL2=https://blazedemo.com/assets/bootstrap-table.css
+[ProtocolInfo]
+ProtocolId=QTWeb

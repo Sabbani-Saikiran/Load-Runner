@@ -1,0 +1,10 @@
+GET /update/6/Firefox/121.0/20231211174248/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.19045.3693%2520(x64)/ISET%3ASSE4_2%2CMEM%3A7051/default/default/update.xml HTTP/1.1
+Host: aus5.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+

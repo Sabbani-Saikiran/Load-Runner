@@ -1,0 +1,5 @@
+[hosts]
+www.gstatic.com=
+clientservices.googleapis.com=
+petstore.octoperf.com=
+clients2.google.com=

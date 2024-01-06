@@ -1,0 +1,8 @@
+[hosts]
+clientservices.googleapis.com=
+blazedemo.com=
+blazemeter.trackinglibrary.prodperfect.com=
+blazemeter.datapipe.prodperfect.com=
+update.googleapis.com=
+www.gstatic.com=
+content-autofill.googleapis.com=

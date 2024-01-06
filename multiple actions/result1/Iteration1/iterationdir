@@ -1,0 +1,10 @@
+[buy_items]
+SnapshotIndex=I1_buy_items
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[close]
+SnapshotIndex=I1_close
+[enter_the_store]
+SnapshotIndex=I1_enter_the_store
+[vuser_end]
+SnapshotIndex=I1_vuser_end

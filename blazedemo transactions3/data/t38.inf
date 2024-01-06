@@ -1,0 +1,13 @@
+[t38]
+FileName1=t38.htm
+URL1=https://blazedemo.com/
+Total=2
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_38.xml
+FileName2=t38_bootstrap.min.html
+URL2=https://blazedemo.com/assets/bootstrap.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

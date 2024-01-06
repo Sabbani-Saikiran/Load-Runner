@@ -1,0 +1,13 @@
+HTTP/2.0 204
+Status: 204
+date: Wed, 03 Jan 2024 09:48:29 GMT
+x-amzn-requestid: f78e8a8e-cfb0-4951-ab09-11d25f63ed6c
+access-control-allow-origin: *
+x-amz-apigw-id: Q9QJMEAWIAMEjVA=
+x-content-type-options: nosniff
+x-amzn-trace-id: Root=1-65952d6d-245869465ff325b64fb396ea;Sampled=0;lineage=f1844f24:0
+x-cache: Miss from cloudfront
+via: 1.1 63aba6cb214ef6e4e28957fb11a1087e.cloudfront.net (CloudFront)
+x-amz-cf-pop: MAA51-P3
+x-amz-cf-id: zz43JTNtbYGv83zpv6Gbtlpaeo_7bp_OQugUUzQb_Hv0NL0uKa6BHg==
+

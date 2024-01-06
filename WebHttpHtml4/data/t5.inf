@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.htm
+URL1=https://demowebshop.tricentis.com/login
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzASIAkjMkAGJoBmkRIFDaqYN6ASBQ1lIZnqIcq8fkbMI5qFEhkJNjqN2K--6IoSBQ0T7oMOIUSOl8q9LMwN.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/ChVDaHJvbWUvMTIwLjAuNjA5OS4xMzASIAkjMkAGJoBmkRIFDaqYN6ASBQ1lIZnqIcq8fkbMI5qFEhkJNjqN2K--6IoSBQ0T7oMOIUSOl8q9LMwN?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

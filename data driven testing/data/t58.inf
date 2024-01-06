@@ -1,0 +1,11 @@
+[t58]
+FileName1=t58.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/a9a4ed1a-465e-4dfb-9713-3cc37bad5258
+Total=1
+RequestHeaderFile=t58_RequestHeader.txt
+RequestBodyFile=t58_RequestBody.txt
+ResponseHeaderFile=t58_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_58.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

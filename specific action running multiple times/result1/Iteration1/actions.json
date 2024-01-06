@@ -1,0 +1,104 @@
+[
+    {
+        "actionName": "enter_the_store",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: petstore.octoperf.com",
+                "infFile": "t1.inf",
+                "time": 1704196528172
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Link: Enter the Store",
+                "infFile": "t2.inf",
+                "time": 1704196529938
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "buy_items",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Catalog.action;jsessionid=8E42091D5685C9A42487CB396B76AF01",
+                "infFile": "t3.inf",
+                "time": 1704196530282
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Link: FI-SW-01",
+                "infFile": "t5.inf",
+                "time": 1704196530626
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t6.inf",
+                "time": 1704196530905
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "buy_items",
+        "steps": [
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: Catalog.action;jsessionid=8E42091D5685C9A42487CB396B76AF01",
+                "infFile": "t7.inf",
+                "time": 1704196531204
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Link: FI-SW-01",
+                "infFile": "t9.inf",
+                "time": 1704196531848
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t10.inf",
+                "time": 1704196532216
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "buy_items",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: Catalog.action;jsessionid=8E42091D5685C9A42487CB396B76AF01",
+                "infFile": "t11.inf",
+                "time": 1704196532823
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Link: FI-SW-01",
+                "infFile": "t13.inf",
+                "time": 1704196533116
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Link: Add to Cart",
+                "infFile": "t14.inf",
+                "time": 1704196533463
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "close",
+        "steps": [
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: Order.action",
+                "infFile": "t15.inf",
+                "time": 1704196533763
+            }
+        ],
+        "transactions": []
+    }
+]

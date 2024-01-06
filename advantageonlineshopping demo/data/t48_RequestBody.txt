@@ -1,0 +1,8 @@
+"{\"entries\":[{\"failure_data\":{\"custom_error\":\"net::ERR_CERT_COMMON_NAME_INVALID\"},\"net"
+"work_changed\":false,\"protocol\":\"\",\"request_age_ms\":87446,\"request_elapsed_ms\":2599,\""
+"sample_rate\":1.0,\"server_ip\":\"\",\"status\":\"ssl.cert.name_invalid\",\"url\":\"https://ww"
+"w.googletagmanager.com/\",\"was_proxied\":false},{\"failure_data\":{\"custom_error\":\"net::ER"
+"R_CERT_COMMON_NAME_INVALID\"},\"network_changed\":false,\"protocol\":\"\",\"request_age_ms\":7"
+"6409,\"request_elapsed_ms\":411,\"sample_rate\":1.0,\"server_ip\":\"\",\"status\":\"ssl.cert.n"
+"ame_invalid\",\"url\":\"https://www.googletagmanager.com/\",\"was_proxied\":false}],\"reporter"
+"\":\"chrome\"}"

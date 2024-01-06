@@ -1,0 +1,28 @@
+Virtual User Script started at: 1/4/2024 9:08:03 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\blazedemo transaction\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 340823 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_url("blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Downloading resource "https://blazedemo.com/favicon.ico" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(14): Downloading resource "https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js" (specified by argument number 11)  	[MsgId: MMSG-26576]
+Action.c(14): Error -35196: HTTP Status-Code=429 (Retry With) for "https://blazedemo.com/"  	[MsgId: MERR-35196]
+Action.c(14): Warning -35196: HTTP Status-Code=429 (Retry With) for "https://blazedemo.com/favicon.ico"  	[MsgId: MWAR-35196]
+Action.c(14): web_url("blazedemo.com") highest severity level was "ERROR", 22333 body bytes, 943 header bytes  	[MsgId: MMSG-26388]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

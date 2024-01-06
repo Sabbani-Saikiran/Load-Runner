@@ -1,0 +1,13 @@
+[t13]
+FileName1=t13.json
+URL1=https://advantageonlineshopping.com/order/api/v1/carts/655606527
+Total=2
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=t13_RequestBody.txt
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_fetchImage.jpeg
+URL2=https://advantageonlineshopping.com/catalog/fetchImage?image_id=5400
+[ProtocolInfo]
+ProtocolId=QTWeb

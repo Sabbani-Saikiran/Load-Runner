@@ -1,0 +1,4 @@
+"{\"seaddress\":{\"addressLine1\":\"abc\",\"addressLine2\":\"\",\"city\":\"hyderabad\",\"countr"
+"y\":\"in\",\"postalCode\":12345,\"state\":\"telangana\"},\"secustomerName\":\"user name\",\"se"
+"customerPhone\":1234567890,\"senumberOfProducts\":2,\"setransactionType\":\"SHIPPING_COST\",\""
+"sessionId\":\"432EB46DFCE6FD68A4FA6B8CCAFA3248\"}"

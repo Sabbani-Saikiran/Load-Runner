@@ -1,0 +1,8 @@
+[t4]
+FileName1=t4_seed.html
+URL1=https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120
+Total=2
+ContentType=text/css
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_jpetstore.css
+URL2=https://petstore.octoperf.com/css/jpetstore.css

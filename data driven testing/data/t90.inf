@@ -1,0 +1,11 @@
+[t90]
+FileName1=t90.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=13:4-OTGX97DaOPTKqq-EOlUF75DX9KS2Y9DaXmJr89C3g&cup2hreq=92a71a51b57f89baa1edc5c0a9d3d72015a2328da8197abb015a54aeec675164
+Total=1
+RequestHeaderFile=t90_RequestHeader.txt
+RequestBodyFile=t90_RequestBody.txt
+ResponseHeaderFile=t90_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_90.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

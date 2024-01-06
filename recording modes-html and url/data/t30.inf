@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30_dogs_icon.gif
+URL1=https://petstore.octoperf.com/images/dogs_icon.gif
+Total=1
+ContentType=image/gif
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

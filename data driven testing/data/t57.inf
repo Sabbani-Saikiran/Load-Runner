@@ -1,0 +1,11 @@
+[t57]
+FileName1=t57_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/security-state/collections/cert-revocations/changeset?_expected=1704232633771&_since=%221703584634861%22
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

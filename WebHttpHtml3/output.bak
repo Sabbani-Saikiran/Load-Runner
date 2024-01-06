@@ -1,0 +1,37 @@
+Virtual User Script started at: 1/2/2024 10:48:41 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\WebHttpHtml3\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 340536 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(14): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(16): web_url("petstore.swagger.io") started  	[MsgId: MMSG-26355]
+Action.c(16): Found resource "https://petstore.swagger.io/swagger-ui.css" in HTML "https://petstore.swagger.io/"  	[MsgId: MMSG-26659]
+Action.c(16): Found resource "https://petstore.swagger.io/index.css" in HTML "https://petstore.swagger.io/"  	[MsgId: MMSG-26659]
+Action.c(16): Found resource "https://petstore.swagger.io/swagger-ui-bundle.js" in HTML "https://petstore.swagger.io/"  	[MsgId: MMSG-26659]
+Action.c(16): Found resource "https://petstore.swagger.io/swagger-ui-standalone-preset.js" in HTML "https://petstore.swagger.io/"  	[MsgId: MMSG-26659]
+Action.c(16): Found resource "https://petstore.swagger.io/swagger-initializer.js" in HTML "https://petstore.swagger.io/"  	[MsgId: MMSG-26659]
+Action.c(16): Downloading resource "https://validator.swagger.io/validator?url=https%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(16): web_url("petstore.swagger.io") was successful, 486704 body bytes, 3695 header bytes  	[MsgId: MMSG-26386]
+Action.c(27): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(27): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(30): web_url("swagger.json") started  	[MsgId: MMSG-26355]
+Action.c(30): Registered web_reg_find successful for "Text=Swagger Petstore" (count=1)  	[MsgId: MMSG-26364]
+Action.c(30): web_url("swagger.json") was successful, 13843 body bytes, 284 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

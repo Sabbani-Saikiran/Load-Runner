@@ -1,0 +1,18 @@
+POST /submit/firefox-desktop/newtab/1/43430f8b-ab33-4fff-af00-c36514ca630c HTTP/1.1
+Host: incoming.telemetry.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+content-type: application/json; charset=utf-8
+date: Wed, 03 Jan 2024 05:00:46 GMT
+content-length: 473
+x-telemetry-agent: Glean/55.0.0 (Rust on Windows)
+content-encoding: gzip
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: none
+Pragma: no-cache
+Cache-Control: no-cache
+

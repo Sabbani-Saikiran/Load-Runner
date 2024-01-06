@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\advantageonlineshopping demo
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\advantageonlineshopping demo\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\advantageonlineshopping demo\\combined_advantageonlineshopping demo.c
+c:\users\sai\onedrive\documents\vugen\scripts\advantageonlineshopping demo\\pre_cci.c

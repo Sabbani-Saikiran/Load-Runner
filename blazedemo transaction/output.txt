@@ -1,0 +1,86 @@
+Virtual User Script started at: 1/4/2024 9:37:07 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Sai\OneDrive\Documents\VuGen\Scripts\blazedemo transaction\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_url("seed") started  	[MsgId: MMSG-26355]
+Action.c(6): HTML parsing not performed for Content-Type "application/octet-stream" ("ParseHtmlContentType" Runtime Setting is "TEXT"). URL="https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=120"  	[MsgId: MMSG-26547]
+Action.c(6): web_url("seed") was successful, 340819 body bytes, 377 header bytes  	[MsgId: MMSG-26386]
+Action.c(14): web_url("https://blazedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(14): Found resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://blazedemo.com/assets/bootstrap.min.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://blazedemo.com/assets/bootstrap-table.js" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://blazedemo.com/assets/bootstrap.min.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Found resource "https://blazedemo.com/assets/bootstrap-table.css" in HTML "https://blazedemo.com/"  	[MsgId: MMSG-26659]
+Action.c(14): Downloading resource "https://blazedemo.com/favicon.ico" (specified by argument number 9)  	[MsgId: MMSG-26576]
+Action.c(14): Downloading resource "https://blazemeter.trackinglibrary.prodperfect.com/keen-tracking.min.js" (specified by argument number 11)  	[MsgId: MMSG-26576]
+Action.c(14): web_url("https://blazedemo.com") was successful, 91039 body bytes, 3577 header bytes  	[MsgId: MMSG-26386]
+Action.c(26): Notify: Transaction "source_transaction" started.
+Action.c(28): Notify: Transaction "source_transaction" ended with a "Pass" status (Duration: 0.0156).
+Action.c(30): Notify: Transaction "destination_transaction" started.
+Action.c(32): Notify: Transaction "destination_transaction" ended with a "Pass" status (Duration: 0.0156).
+Action.c(34): Notify: Transaction "find flights_transaction" started.
+Action.c(36): web_submit_form("reserve.php") started  	[MsgId: MMSG-26355]
+Action.c(36): Submitting form to "https://blazedemo.com/reserve.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(36): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): web_submit_form("reserve.php") was successful, 1912 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(43): Notify: Transaction "find flights_transaction" ended with a "Pass" status (Duration: 0.6401 Wasted Time: 0.0111).
+Action.c(47): Notify: Transaction "choose this flight_transaction" started.
+Action.c(49): web_submit_form("purchase.php") started  	[MsgId: MMSG-26355]
+Action.c(49): Submitting form to "https://blazedemo.com/purchase.php", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(49): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(49): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(49): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(49): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(49): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(49): web_submit_form("purchase.php") was successful, 2115 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(57): web_url("generate_204") started  	[MsgId: MMSG-26355]
+Action.c(57): web_url("generate_204") was successful, 0 body bytes, 127 header bytes  	[MsgId: MMSG-26386]
+Action.c(65): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(65): web_custom_request("json") was successful, 1049 body bytes, 1153 header bytes  	[MsgId: MMSG-26386]
+Action.c(96): Notify: Transaction "choose this flight_transaction" ended with a "Pass" status (Duration: 1.4219 Wasted Time: 0.0314).
+Action.c(100): Notify: Transaction "details_transaction" started.
+Action.c(102): web_custom_request("pageviews") started  	[MsgId: MMSG-26355]
+Action.c(102): web_custom_request("pageviews") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(118): web_custom_request("clicks") started  	[MsgId: MMSG-26355]
+Action.c(118): web_custom_request("clicks") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(140): web_custom_request("clicks_2") started  	[MsgId: MMSG-26355]
+Action.c(140): web_custom_request("clicks_2") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(160): Notify: Transaction "details_transaction" ended with a "Pass" status (Duration: 2.6092 Wasted Time: 0.0302).
+Action.c(162): web_custom_request("changes") started  	[MsgId: MMSG-26355]
+Action.c(162): web_custom_request("changes") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(182): web_custom_request("clicks_3") started  	[MsgId: MMSG-26355]
+Action.c(182): web_custom_request("clicks_3") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(202): web_custom_request("changes_2") started  	[MsgId: MMSG-26355]
+Action.c(202): web_custom_request("changes_2") was successful, 0 body bytes, 506 header bytes  	[MsgId: MMSG-26386]
+Action.c(222): Notify: Transaction "purchase_transaction" started.
+Action.c(224): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(224): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(226): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(226): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(228): web_submit_data("confirmation.php") started  	[MsgId: MMSG-26355]
+Action.c(228): Resource "http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): Resource "https://blazedemo.com/assets/bootstrap.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): Resource "https://blazedemo.com/assets/bootstrap-table.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): Resource "https://blazedemo.com/assets/bootstrap.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): Resource "https://blazedemo.com/assets/bootstrap-table.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(228): web_submit_data("confirmation.php") was successful, 1925 body bytes, 317 header bytes  	[MsgId: MMSG-26386]
+Action.c(249): Notify: Transaction "purchase_transaction" ended with a "Pass" status (Duration: 0.6556 Wasted Time: 0.0138).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

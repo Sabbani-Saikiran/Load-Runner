@@ -1,0 +1,10 @@
+[hosts]
+clientservices.googleapis.com=
+www.gstatic.com=
+clients2.google.com=
+www.googleapis.com=
+accounts.google.com=
+sampleapp.tricentis.com=
+safebrowsing.google.com=
+petstore.octoperf.com=
+content-autofill.googleapis.com=

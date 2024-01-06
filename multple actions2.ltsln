@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+# SharpDevelop 4.1.3.0
+Project("B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA") = "WebHttpHtml8", "WebHttpHtml8\WebHttpHtml8.usr", "B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXFNhaVxPbmVEcml2ZVxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xXZWJIdHRwSHRtbDhcV2ViSHR0cEh0bWw4LnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1xTYWlcT25lRHJpdmVcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcV2ViSHR0cEh0bWw4XFdlYkh0dHBIdG1sOC51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDI0LTAxLTAyVDEyOjU4OjQ5LjAyODI3ODgrMDU6MzA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA.Debug|Any CPU.Build.0 = Debug|Any CPU
+		B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA.Release|Any CPU.Build.0 = Release|Any CPU
+		B4536F1F-FEA5-490B-BDF3-1C0AA830D8DA.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

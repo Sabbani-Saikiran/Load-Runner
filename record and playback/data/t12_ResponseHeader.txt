@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: https://www.google.com
+Access-Control-Allow-Credentials: true
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 02 Jan 2024 11:05:42 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factor, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Content-Security-Policy: script-src 'report-sample' 'nonce-tty-SgtaZXo1k2HBn4X9Pw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'
+Content-Security-Policy: script-src 'unsafe-inline' 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport/allowlist
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/IdentityListAccountsHttp/cspreport
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factor=*, ch-ua-platform=*, ch-ua-platform-version=*
+Cross-Origin-Opener-Policy: same-origin
+Content-Encoding: gzip
+Server: ESF
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=ABTWhQEUBNAbbA9mDM77d_vjxBpQMAjA3rTGLQpZYHSA91b7RcAU_m4fx4fEHPq-R4his8xJuQk; expires=Wed, 01-Jan-2025 11:05:42 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-1PSIDCC=ABTWhQEJXMXCl7Od_7mZrmXCSlkSD2e5LDZcs48Pb4X2yu6aUWwBWj2UcihOGBmByq6LECiSxw; expires=Wed, 01-Jan-2025 11:05:42 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high
+Set-Cookie: __Secure-3PSIDCC=ABTWhQH7w8E8pzHIB_PjI3JQzXVbSOGJoaafcAgljn5TEBj10gzPMl0WpW8wmW3usg1uVsUniRI; expires=Wed, 01-Jan-2025 11:05:42 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+

@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: 101",
+                "infFile": "t1.inf",
+                "time": 1704178222584
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: app.php",
+                "infFile": "t2.inf",
+                "time": 1704178224128
+            }
+        ],
+        "transactions": []
+    }
+]

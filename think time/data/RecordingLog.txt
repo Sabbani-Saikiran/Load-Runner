@@ -1,0 +1,71 @@
+[API Trapper      (457c:498c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (69cc:5d18)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 73c:18ec)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 73c:5928)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 73c:5928)] Load Network Traffic Analyzers:
+[Network Analyzer ( 73c:5928)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 73c:5928)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 73c:5928)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 73c:5928)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 73c:5928)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 73c:5928)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 73c:5928)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 73c:5928)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 73c:44b4)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer ( 73c:5928)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4007:82B:0:0:0:2003: - 443  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4007:809:0:0:0:200A: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4003:C1C:0:0:0:54: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( 73c:4178)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 73c:4178)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 73c:1394)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 73c:1394)] SSLAccept(ssl_id = 2938022083904 = 000002AC0FC33D40) Failed, ctx = 000002AC0FC1D260, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 73c:1394)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 73c:4b0c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 73c:4b0c)] SSLAccept(ssl_id = 2938022293536 = 000002AC0FC67020) Failed, ctx = 000002AC0FC4FF30, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 73c:4b0c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      ( 73c: a5c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=120"   
+[Network Analyzer ( 73c: a5c)]   (Sid:  2) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4007:805:0:0:0:2003: - 80  (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( 73c: a5c)] "GET /generate_204"   
+[Network Analyzer ( 73c: a5c)]   (Sid:  5) Client -> Server @ : 310 bytes (Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  5) Server -> Client : 127 bytes  (Service=HTTP)
+[Network Analyzer ( 73c:4b08)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 73c:4b08)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Client -> Server @ : 3078 bytes (SSL)(Service=HTTP)
+[Web Request      ( 73c: a5c)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Server -> Client : 2191 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Server -> Client : 436 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Server -> Client : 86 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4007:81E:0:0:0:2003: - 443  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer ( 73c:5314)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4003:C1C:0:0:0:BC: - 5228  (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( 73c:5928)] Request Connection: Remote Server @ 2404:6800:4007:809:0:0:0:200A: - 443  (Service=)  (Sid=  8)  PROXIED!
+[API Trapper      (169c:5534)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( 73c:5314)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer ( 73c:5a08)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 73c:5a08)] SSLAccept(ssl_id = 2938026148080 = 000002AC100140F0) Failed, ctx = 000002AC0FC1D260, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 73c:5a08)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 73c:29e8)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    ( 73c:29e8)] SSLAccept(ssl_id = 2938026213584 = 000002AC100240D0) Failed, ctx = 000002AC0FC1D260, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    ( 73c:29e8)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer ( 73c: a5c)]   (Sid:  2) Server -> Client : 206 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( 73c: a5c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer ( 73c:44b4)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer ( 73c: a5c)]   (Sid:  8) Connection Terminated (by Client)

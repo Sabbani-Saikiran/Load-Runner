@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30_tiles.json
+URL1=https://contile.services.mozilla.com/v1/tiles
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

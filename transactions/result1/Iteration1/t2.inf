@@ -1,0 +1,16 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/html
+StepName=Custom Request: crx-telemetry
+Total=2
+FileName1=t2.html
+FileName2=t1_1_jpetstore.css
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1704197396325
+RawStepName=crx-telemetry
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1704197395929
+URL1=file:
+URL2=https://petstore.octoperf.com/css/jpetstore.css

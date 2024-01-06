@@ -1,0 +1,10 @@
+GET /update/VersionCheck.php?reqVersion=2&id=UFT.Firefox.Agent.2023@microfocus.com&version=2023.4.0.1163&maxAppVersion=null&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=121.0&appOS=WINNT&appABI=x86_64-msvc&locale=en-US&currentAppVersion=121.0&updateType=112&compatMode=normal HTTP/1.1
+Host: versioncheck-bg.addons.mozilla.org
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+

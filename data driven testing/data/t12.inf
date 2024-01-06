@@ -1,0 +1,15 @@
+[t12]
+FileName1=t12.html
+URL1=http://ocsp.digicert.com/
+Total=3
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_remote-settings.content-signature.mozilla.org-2023-12-29-19-51-24.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-12-29-19-51-24.chain
+FileName3=t12_threatListUpdates_fetch.html
+URL3=https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARCfuBQaAhgCMpCo2CICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEI3KDRoCGAIUrtP4IgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQvcENGgIYAh9jYIsiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARDHkA4aAhgCwvrn3yICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgCtT3I5CICIAIoAQ==
+[ProtocolInfo]
+ProtocolId=QTWeb

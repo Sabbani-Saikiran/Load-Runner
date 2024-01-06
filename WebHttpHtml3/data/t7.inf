@@ -1,0 +1,15 @@
+[t7]
+FileName1=t7_swagger.json
+URL1=https://petstore.swagger.io/v2/swagger.json
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7_favicon-32x32.png
+URL2=https://petstore.swagger.io/favicon-32x32.png
+FileName3=t7_validator.png
+URL3=https://validator.swagger.io/validator?url=https%3A%2F%2Fpetstore.swagger.io%2Fv2%2Fswagger.json
+[ProtocolInfo]
+ProtocolId=QTWeb

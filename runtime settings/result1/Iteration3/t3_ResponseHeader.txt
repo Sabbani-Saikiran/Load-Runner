@@ -1,0 +1,9 @@
+HTTP/2.0 200
+Status: 200
+date: Tue, 02 Jan 2024 11:44:39 GMT
+content-type: text/html;charset=UTF-8
+content-length: 5119
+set-cookie: JSESSIONID=8A41FE7A378A676725DB14983514D7A9; Path=/; HttpOnly
+content-language: en
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

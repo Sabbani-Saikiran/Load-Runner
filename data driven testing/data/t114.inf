@@ -1,0 +1,13 @@
+[t114]
+FileName1=t114.json
+URL1=https://blazemeter.datapipe.prodperfect.com/v1/3.0/projects/lXviifSA1NskA4wsG9N6WoWg/events/changes?api_key=8RWMCGFX4X0IRY1GHWDM3HM5WDSJF9LP62BSDULOL3XK7WAIFGDB7EU526O1A0UPLH1S8SJP320LUXJKCHLJX1822GU1KFE80CNW6PXVZ83IOO6LJ731EN164IFVUFMC8DOGYP2MXHN47WGVB192F2PTQRQXCF95OJWAKGOH9S69DZAI5OPJW8QSPDE6LQQ9
+Total=2
+RequestHeaderFile=t114_RequestHeader.txt
+RequestBodyFile=t114_RequestBody.txt
+ResponseHeaderFile=t114_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_114.xml
+FileName2=t114_bootstrap.min.css
+URL2=https://blazedemo.com/assets/bootstrap.min.css
+[ProtocolInfo]
+ProtocolId=QTWeb

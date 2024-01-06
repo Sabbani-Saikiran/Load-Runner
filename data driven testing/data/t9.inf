@@ -1,0 +1,11 @@
+[t9]
+FileName1=t9_cfr-v1-en-US.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_9.xml
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

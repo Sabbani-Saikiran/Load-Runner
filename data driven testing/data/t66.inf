@@ -1,0 +1,11 @@
+[t66]
+FileName1=t66_country.json
+URL1=https://location.services.mozilla.com/v1/country?key=7e40f68c-7938-4c5d-9f95-e61647c213eb
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_66.xml
+RequestHeaderFile=t66_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t66_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

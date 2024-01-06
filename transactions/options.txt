@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Sai\OneDrive\Documents\VuGen\Scripts\transactions
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\sai\onedrive\documents\vugen\scripts\transactions\\logfile.log
+c:\users\sai\onedrive\documents\vugen\scripts\transactions\\combined_transactions.c
+c:\users\sai\onedrive\documents\vugen\scripts\transactions\\pre_cci.c

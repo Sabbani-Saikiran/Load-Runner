@@ -1,0 +1,13 @@
+[t15]
+FileName1=t15.htm
+URL1=https://safebrowsing.google.com/safebrowsing/clientreport/crx-telemetry
+Total=2
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=t15_RequestBody.txt
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+FileName2=t15_app_icon_24.png
+URL2=https://sampleapp.tricentis.com/101/images/app_icon_24.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,23 @@
+[StartRecordingGMT]
+StartRecordingGMT_1=2024/01/02 10:59:43
+StartRecordingIsDst_1=0
+StartRecordingGMT_2=2024/01/02 11:00:23
+StartRecordingIsDst_2=0
+StartRecordingGMT_3=2024/01/02 11:01:41
+StartRecordingIsDst_3=0
+StartRecordingGMT_4=2024/01/02 11:02:21
+StartRecordingIsDst_4=0
+StartRecordingGMT_5=2024/01/02 11:03:20
+StartRecordingIsDst_5=0
+StartRecordingGMT_6=2024/01/02 11:04:09
+StartRecordingIsDst_6=0
+StartRecordingGMT_7=2024/01/02 11:05:25
+StartRecordingIsDst_7=0
+StartRecordingGMT_8=2024/01/02 11:08:58
+StartRecordingIsDst_8=0
+StartRecordingGMT_9=2024/01/02 11:10:24
+StartRecordingIsDst_9=0
+[User-Agent]
+User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+[Security]
+UsingPersistForAuthentication=1

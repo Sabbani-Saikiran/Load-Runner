@@ -1,0 +1,71 @@
+[API Trapper      (5d0c:43e4)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (4bd0:6074)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (6394:6548)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (6394:4e90)] ------------------------------------------------------------------------------------------
+[Network Analyzer (6394:4e90)] Load Network Traffic Analyzers:
+[Network Analyzer (6394:4e90)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (6394:4e90)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (6394:4e90)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (6394:4e90)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (6394:4e90)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (6394:4e90)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (6394:4e90)]     Analyzer Module: local_server (value=)
+[Network Analyzer (6394:4e90)] ------------------------------------------------------------------------------------------
+[Network Analyzer (6394:33b8)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (6394:4e90)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 2404:6800:4007:82B:0:0:0:2003: - 443  (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 2404:6800:4003:C06:0:0:0:54: - 443  (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (6394:2b4c)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (6394:2b4c)] SSLAccept(ssl_id = 2318124029664 = 0000021BBAF596E0) Failed, ctx = 0000021BBAF3E250, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (6394:2b4c)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:3338)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:3338)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (6394:33b8)] "GET /"   
+[Network Analyzer (6394:33b8)]   (Sid:  1) Client -> Server @ : 664 bytes (SSL)(Service=HTTP)
+[Network Analyzer (6394:  f0)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:33b8)]   (Sid:  1) Server -> Client : 1451 bytes (SSL) (Service=HTTP)
+[API Trapper      (6638:1e08)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (6394:637c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 2404:6800:4007:81E:0:0:0:2003: - 443  (Service=)  (Sid=  4)  PROXIED!
+[Net An. Error    (6394:  f0)] SSLAccept(ssl_id = 2318124116688 = 0000021BBAF6EAD0) Failed, ctx = 0000021BBAF3E250, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000126:SSL routines::unexpected eof while reading
+" 
+[Net An. Error    (6394:  f0)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:637c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (6394:5f5c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (6394:5f5c)] SSLAccept(ssl_id = 2318123772608 = 0000021BBAF1AAC0) Failed, ctx = 0000021BBAF3E250, err = "TLSv1.3 early data", err code = 5, err msg= "error:00000005:lib(0)::reason(5)
+" 
+[Net An. Error    (6394:5f5c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:637c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 2404:6800:4007:81E:0:0:0:2003: - 443  (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (6394:33b8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (6394:4e90)] Address lookup for DESKTOP-3KOP925 = 192.168.1.100
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 49.12.128.248:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (6394:4e90)] Request Connection: Remote Server @ 2404:6800:4007:805:0:0:0:200A: - 443  (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (6394:4538)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (6394:4538)] SSLAccept(ssl_id = 2318123643632 = 0000021BBAEFB2F0) Failed, ctx = 0000021BBAF3E250, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (6394:4538)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (6394:4020)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (6394:4020)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (6394:3830)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (6394:3830)] SSLAccept(ssl_id = 2318124326640 = 0000021BBAFA1EF0) Failed, ctx = 0000021BBAF3E250, err = "error", err code = 1, err msg= "error:00000001:lib(0)::reason(1)
+error:0A000416:SSL routines::sslv3 alert certificate unknown
+" 
+[Net An. Error    (6394:3830)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (6394:33b8)] "GET /css/jpetstore.css"   
+[Network Analyzer (6394:33b8)]   (Sid:  6) Client -> Server @ : 558 bytes (SSL)(Service=HTTP)
+[Network Analyzer (6394:33b8)]   (Sid:  6) Server -> Client : 4096 bytes (SSL) (Service=HTTP)
+[Network Analyzer (6394:33b8)]   (Sid:  6) Server -> Client : 97 bytes (SSL) (Service=HTTP)
+[Network Analyzer (6394:33b8)]   (Sid:  6) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Web Request      (6394:33b8)] "GET /favicon.ico"   
+[Network Analyzer (6394:33b8)]   (Sid:  6) Client -> Server @ : 598 bytes (SSL)(Service=HTTP)
+[Network Analyzer (6394:33b8)]   (Sid:  6) Server -> Client : 995 bytes (SSL) (Service=HTTP)
+[Network Analyzer (6394:637c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (6394:637c)]   (Sid:  7) Connection Terminated (by Client)
+[API Trapper      (2548:33f8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (4a88:4f7c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
